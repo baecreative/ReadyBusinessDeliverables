@@ -33,6 +33,7 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
 		    	this.bindPageOut();
 
 	    		this.animatePageIn();
+				this.equaliseAnswerBoxes();
 		    },
 
 			setFontAnswerSize: function() {
