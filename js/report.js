@@ -503,7 +503,7 @@ ReportPage.prototype = {
 				}
 				totalWeights += parseFloat(value);
 			});
-			var score = Math.round(parseFloat(maxScore*(totalWeights/length)).toFixed(3));
+			var score = Math.floor(parseFloat(maxScore*(totalWeights/length)).toFixed(3));
 			return score;
 		}
 		return result; // this.rbScores
@@ -514,52 +514,47 @@ ReportPage.prototype = {
 			sectorProducts = this.displayedProducts[sector],
 			selectedProductIndex = sectorProducts.getIndexOfObject('id', productId),
 			selectedProduct = sectorProducts[selectedProductIndex],
-			otherProductIndex = flipFlop(selectedProductIndex),
-			otherProduct = sectorProducts[otherProductIndex],
 			weight,
-			objIndex,
-			isShared,
-			scoreChange,
 			maxIncrease = maxIncrease || false,
-			modifiedWeights = clone(this.levelFourWeights);
+			modifiedWeights = clone(this.levelFourWeights),
+			cumScoreChange = 0;
 
+		// Loop over questions that this product relates to
 		$.each(selectedProduct.questions, function(index, questionId) {
-			weight = that.levelFourWeights[sector][questionId];
-			isShared = false;
-
-			if (typeof weight === "undefined") {
+			if (typeof that.levelFourWeights[sector][questionId] === "undefined") {
 				return true;
 			}
 
-			if(typeof otherProduct.questions !== "undefined" && otherProduct.type === "product") {
-				//does the other product affect this question?
-				$.each(otherProduct.questions, function(index, questionId) {
-					objIndex = $.inArray(questionId, selectedProduct.questions);
-					if (objIndex !== -1) {
-						isShared = true;
-					}
-				});
+			weight = that.levelFourWeights[sector][questionId];
+			if (typeof weight === "undefined") {
+				return true;
 			}
+			// cumulative value of weight increases, if all weights are increased to the maximum of 1
+			cumScoreChange += parseFloat(1 - weight);
+		});
 
-			if (maxIncrease) {
-				scoreChange = maxIncrease;
-			} else {
-				if (!isShared) {
-					scoreChange = parseFloat(1 - weight);
-				} else {
-					// the other product does affect this question therefore divide by 2
-					scoreChange = parseFloat((1 - weight)/2);
-				}
-			}
+		// If the cumulative score change is greater than the maximum, use the maximum value
+		if (maxIncrease && cumScoreChange > maxIncrease) {
+			cumScoreChange = parseFloat(maxIncrease);
+		}
 
-			// increase weight - select product
+		if (typeof selectedProduct.questions !== "undefined" && selectedProduct.questions.length) {
+			// Get the ID of the first level 4 question related to this product
+			var questionId = Object.keys(modifiedWeights[sector])[0];
+
+			// Add or minus the the score change to the question weight, depending on if we are selecting a product (increasing the score),
+			// or deselecting a product (decreasing the score)
+			var levelFourWeights = that.levelFourWeights[sector][questionId];
+
+			levelFourWeights = (levelFourWeights===undefined)?0:levelFourWeights;
+
 			if (increase) {
-				modifiedWeights[sector][questionId] = (parseFloat(that.levelFourWeights[sector][questionId]) + parseFloat(scoreChange)).toFixed(3);
+				modifiedWeights[sector][questionId] = (parseFloat(levelFourWeights) + parseFloat(cumScoreChange)).toFixed(3);
 			// decrease weight - deselect product
 			} else {
-				modifiedWeights[sector][questionId] = (parseFloat(that.levelFourWeights[sector][questionId]) - parseFloat(scoreChange)).toFixed(3);
+				modifiedWeights[sector][questionId] = (parseFloat(levelFourWeights) - parseFloat(cumScoreChange)).toFixed(3);
 			}
-		});
+		}
 
 		return modifiedWeights;
 	},
@@ -898,6 +893,9 @@ ReportPage.prototype = {
 			this.config.full_report_content.skip_lead_capture === "true" ||
 			this.config.full_report_content.skip_lead_capture === true) {
 
+			//business request: show backlink just after form is submitted
+			$(".share-tool .wrapper .back-link").show();
+			
 			// Hide the lead capture, show the report
 
 			// Populate full report content
@@ -1032,6 +1030,24 @@ ReportPage.prototype = {
 		}
 	},
 
+	// function to return number of products displayed on the report
+	getNumberOfProducts: function() {
+		var that = this,
+			productsLength = 0;
+
+		$.each(that.displayedProducts, function(sectorId, products) {
+			if (typeof that.rbScores.sectors[sectorId] === "undefined") {
+				return;
+			}
+			$.each(products, function(i, product) {
+				if (product.type === "product") {
+					productsLength++;
+				}
+			});
+		});
+		return productsLength;
+	},
+
 	getProducts: function() {
 		var that = this,
 			filteredItems = {
@@ -1068,41 +1084,115 @@ ReportPage.prototype = {
 		this.displayedProducts = getTopPriorityItems(filteredItems, true);
 
 		// calculate and store the amount each product increases the sector & total scores
-		var updatedScores, n, questionId, weight, totalScoreChange, weightIncrease, sectorQAnswered, cumWeight;
+		var questionId,
+			weight,
+			updatedScores,
+			sector_qsAnswered,
+			sector_productCount,
+			sector_maxScoreIncrease,
+			sector_maxWeightIncrease,
+			sector_updatedScores,
+			total_qsAnswered = 0,
+			total_maxScoreIncrease,
+			total_maxWeightIncrease,
+			total_updatedScores,
+			productsLength = this.getNumberOfProducts();
 
+		/*
+			Calculate the maximum amount the total score can increase by when one product is selected
+		 	(based on current score and number of products available to ensure that scores do not exceed the maximum of 90%
+
+		 	((maximum score - current score) / number of products available)
+			i.e. ((90% - 40%) / 5 products) = 10%
+
+			Each product can only increase the total score by a maximum of 10% so that scores do not exceed 90%
+		*/
+		total_maxScoreIncrease = Math.floor((that.config.max_score - that.rbScores.total_static)/productsLength);
+
+
+		var cumWeight = {
+			total: 0,
+			sectors: {}
+		};
+		$.each(that.levelFourWeights, function(sectorId, sectorWeights) {
+			cumWeight.sectors[sectorId] = 0;
+			$.each(sectorWeights, function(questionId, weight) {
+				// calculate cumulative weights
+				cumWeight.total += parseFloat(weight);
+				cumWeight.sectors[sectorId] += parseFloat(weight);
+			});
+			// count total number of level 4 questions answered
+			total_qsAnswered += Object.keys(sectorWeights).length;
+		});
+
+		// Loop through each product and determine the percentage value that this product will increase sector and total score by when selected
 		$.each(that.displayedProducts, function(sectorId, products) {
 			if (typeof that.levelFourWeights[sectorId] === "undefined") {
 				return true;
 			}
 
-			sectorQAnswered = Object.keys(that.levelFourWeights[sectorId]);
+			// count how many level 4 questions were answered for this sector
+			sector_qsAnswered = Object.keys(that.levelFourWeights[sectorId]).length;
 
+			// count how many products there are for this sector
+			sector_productCount = 0;
+			$.each(that.displayedProducts[sectorId], function(i, product) {
+				if (product.type === "product") {
+					sector_productCount++;
+				}
+			});
+
+			/*
+				Calculate the maximum amount the sector score can increase by when one product is selected
+			 	(based on current score and number of products available to ensure that scores do not exceed the maximum of 90%).
+
+			 	((maximum score - current score) / number of products available)
+				i.e. ((90% - 40%) / 5 products) = 10%
+
+				Each product can only increase the total score by a maximum of 10% so that scores do not exceed 90%
+			*/
+			sector_maxScoreIncrease = (that.config.max_score - that.rbScores.sectors_static[sectorId])/sector_productCount;
+
+			if (sector_maxScoreIncrease > 40) {
+				sector_maxScoreIncrease = 40;
+			}
+			total_maxWeightIncrease = (((total_maxScoreIncrease + that.rbScores.total_static/that.config.max_score) * total_qsAnswered) - cumWeight.total).toFixed(3);
+
+			// For each product in this sector
 			$.each(products, function(i, product) {
+
 				updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true));
 
-				// cap score increase to 25%
-				if ((updatedScores.sectors[sectorId] - that.rbScores.sectors[sectorId]) > 25) {
+				// if total score increase or the sector score increase is greater than the maximum allowed
+				if ((updatedScores.total - that.rbScores.total_static) > total_maxScoreIncrease ||
+					(updatedScores.sectors[sectorId] - that.rbScores.sectors[sectorId]) > sector_maxScoreIncrease) {
 
-					// work backwards to calculate total score increase when at 25% sector score increase.
-					n = that.rbScores.sectors[sectorId] + 25;
-					questionId = product.questions[0];
-					cumWeight = 0;
-					$.each(that.levelFourWeights[sectorId], function(questionId, weight) {
-						cumWeight = parseFloat(cumWeight) + parseFloat(weight);
-					});
+					// calculate the score increase when at maximum total score increase
+					total_updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true, total_maxWeightIncrease));
 
-					var m = ((n/that.config.max_score) * sectorQAnswered.length);
+					// if the sector score increase is still greater than the maximum allowed
+					// then use the maximum sector increase value to recalculate score increase
+					if ((total_updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId]) > sector_maxScoreIncrease) {
+						// recalculate
+						sector_maxWeightIncrease = ((((that.rbScores.sectors_static[sectorId] + sector_maxScoreIncrease)/that.config.max_score) * sector_qsAnswered) - cumWeight.sectors[sectorId]).toFixed(3);
+						sector_updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true, sector_maxWeightIncrease));
 
-					weightIncrease = m - cumWeight;
-					updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true, weightIncrease));
-
-					product.scoreChange = 25;
-					product.scoreChangeTotal = updatedScores.total - that.rbScores.total_static;
-
+						// store score change values
+						product.scoreChange = sector_updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId];
+						product.scoreChangeTotal = sector_updatedScores.total - that.rbScores.total_static;
+					} else {
+						// store score change values
+						product.scoreChange = total_updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId];
+						product.scoreChangeTotal = total_updatedScores.total - that.rbScores.total_static;
+					}
 				} else {
-					product.scoreChange = updatedScores.sectors[sectorId] - that.rbScores.sectors[sectorId];
+					// store score change values
+					product.scoreChange = updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId];
 					product.scoreChangeTotal = updatedScores.total - that.rbScores.total_static;
 				}
+
+				product.scoreChange = product.scoreChange<0?0:product.scoreChange;
+				product.scoreChangeTotal = product.scoreChangeTotal<0?0:product.scoreChangeTotal;
 			});
 		});
 
@@ -1607,7 +1697,8 @@ ReportPage.prototype = {
 			regex = new RegExp("(&p[0-9]*=" + productId + ")([^0-9]?\\b)", "g");
 			product = that.displayedProducts[sectorId].getObject('id', productId);
 
-			if($this.parent().hasClass('selected')) {
+			//if($this.parent().hasClass('selected')) {
+			if(that.$pageWrapper.find('.item.product.'+productId).hasClass('selected')) {
 				// Deselect
 				product.selected = false;
 				that.rbScores.sectors[sectorId] -= product.scoreChange;
@@ -1625,7 +1716,15 @@ ReportPage.prototype = {
 				// Select
 				product.selected = true;
 				that.rbScores.sectors[sectorId] += product.scoreChange;
+				// ensure score does not exceed maximum score
+				if (that.rbScores.sectors[sectorId] > that.config.max_score) {
+					that.rbScores.sectors[sectorId] = that.config.max_score;
+				}
 				that.rbScores.total += product.scoreChangeTotal;
+				// ensure score does not exceed maximum score
+				if (that.rbScores.total  > that.config.max_score) {
+					that.rbScores.total  = that.config.max_score;
+				}
 				match = regex.exec(window.location.search);
 				if (match == null) {
 					new_params_string = window.location.search + '&p' + that.productSelectedCount + '=' + productId;
