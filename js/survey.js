@@ -2,6 +2,14 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
   	var pageData = {},
   		// AVERAGE_SURVEY_LENGTH
   		averageSurveyLength = 12,
+  		checkboxQuestions = [
+  			 /* Example minimum for a checkbox question 
+  			{
+  				questionId: 219,
+  				minimumSelection: 3
+  			}, */
+  			
+  		],
   		pub = {
 		    init:  function () {
 		    	var that = this;
@@ -171,18 +179,26 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
 						toggleDropdown(questionWrapper);
 					});
 				// else if this is a radio button or checkbox question
-				} else if (question.hasClass('sg-type-radio') || question.hasClass('sg-type-checkbox')) {
+				} else if (question.hasClass('sg-type-radio')) {
 					questionWrapper = $('.sg-list');
 					// Enable/disable Next button initially
-					toggleRadioCheckbox(questionWrapper);
+					toggleRadio(questionWrapper);
 					// Enable/disable Next button on change
 					questionWrapper.click(function() {
-						toggleRadioCheckbox(questionWrapper);
+						toggleRadio(questionWrapper);
+					});
+				} else if (question.hasClass('sg-type-checkbox')) {
+					questionWrapper = $('.sg-list');
+					// Enable/disable Next button initially
+					toggleCheckbox(questionWrapper);
+					// Enable/disable Next button on change
+					questionWrapper.click(function() {
+						toggleCheckbox(questionWrapper);
 					});
 				}
 				// function to toggle the enable class for dropdown menu questions
-				function toggleDropdown(questionWrapper) {
-					if($(questionWrapper).val() !== 'NoAnswer'){//} && $(questionWrapper).find('option:selected').length) {
+				function toggleDropdown(that) {
+					if($(that).val() !== 'NoAnswer'){//} && $(questionWrapper).find('option:selected').length) {
 						nextButton.addClass('enabled');
 						// fix for ios7 bug rendering next button
 						if ($('html').hasClass('ios7') && $('#survey-wrapper').hasClass('question-1') && (window.innerHeight < window.innerWidth)) {
@@ -193,11 +209,30 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
 					}
 				}
 				// function to toggle the enable class for radio/checkbox questions
-				function toggleRadioCheckbox(that) {
+				function toggleRadio(that) {
 					if($(that).find('input:checked').length) {
 						nextButton.addClass('enabled');
 					} else {
 						nextButton.removeClass('enabled');
+					}
+				}
+				function toggleCheckbox(that) {
+					var questionId = question.attr('id').split('-')[3];
+					questionIdIndex = checkboxQuestions.getIndexOfObject("questionId", questionId);
+					if (questionIdIndex !== -1 && checkboxQuestions[questionIdIndex].minimumSelection) {
+						var min = checkboxQuestions[questionIdIndex].minimumSelection,
+							questionsSelected = $(that).find('input:checked').length;
+						if (questionsSelected >= min) {
+							nextButton.addClass('enabled');
+						} else {
+							nextButton.removeClass('enabled');
+						}
+					} else {
+						if ($(questionWrapper).find('input:checked').length) {
+							nextButton.addClass('enabled');
+						} else {
+							nextButton.removeClass('enabled');
+						}
 					}
 				}
 			},
