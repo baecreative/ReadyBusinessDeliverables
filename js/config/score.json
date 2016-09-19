@@ -1,0 +1,8 @@
+{
+	"max_score": 90,
+	"score_boundaries": {
+		"unready": 25,
+		"almostReady": 50,
+		"ready": 75
+	}
+}

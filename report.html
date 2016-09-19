@@ -1,0 +1,210 @@
+<!doctype html>
+<!--[if lt IE 8 ]><html class="ie8 ie no-js"><![endif]-->
+<!--[if IE 9 ]><html class="ie9 ie no-js"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"><!--<![endif]--> 
+<!--[if gte IE 9]
+<style type="text/css">
+.gradient {
+filter: none;
+}
+</style>
+<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ready Business</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <META NAME='ROBOTS' content='NOINDEX, NOFOLLOW'>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <script src="./js/vendor/log.min.js"></script>
+    <script src="./js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="./js/vendor/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="./js/vendor/modernizr-custom.js"></script>
+    <script src="./js/vendor/velocity.min.js"></script>
+    <script src="./js/vendor/velocity.ui.js"></script>
+    <script src="./js/vendor/tamingselect.js"></script>
+    <script src='/js/vendor/fastclick.js'></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/survey.js"></script>
+    <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+</head>
+
+<body> 
+    
+<div class="page-wrapper report">
+	<div class="sticky-nav">
+	<div class="tabs-wrapper">
+		<div id="RPT_7.1" class="tab intro-summary" data-sectionid='intro'>Your score</div><div id="RPT_7.3" class="tab outro-summary" data-sectionid="outro">Summary</div>
+	</div>
+	<div class="share-icon"></div>
+	<div class="share-dropdown">
+		<p id="RPT_7.4">Share your personalised report with your network</p>
+		<a id="RPT_7.5" class="share-button email" href="#">Send via email</a>
+		<div id="RPT_7.6"class="share-button link">Copy direct link</div>
+	</div>
+</div>
+	<section class="intro-summary gradient">
+	<div class="scroll-wrapper">
+		<div id="SHD_1" class="rhombus">Vodafone</div>
+		<h1 id="RPT_2.1">Here is your <strong>Ready Business</strong> summary</h1>
+
+		<div class="top-graph-wrapper">
+			<div class="module results-score">
+				<h3 id="RPT_2.2">Your <strong>readiness score</strong></h3>
+				<div class="score-container rb-score-main"></div>
+			</div>
+
+			<div class="module industry-results">
+				<div class="wrapper">
+					<h3 id="RPT_2.6">How ready is <strong>your sector</strong></h3>
+					<div class="industry-chart">
+						<div class="col-wrapper at-risk">
+							<div class="chart-data-item at-risk-bg -small"></div>
+							<div class="chart-col at-risk-bg"></div>
+						</div><!--
+						--><div class="col-wrapper unready">
+							<div class="chart-data-item unready-bg -small"></div>
+							<div class="chart-col unready-bg"></div>
+						</div><!--
+						--><div class="col-wrapper almost-ready">
+							<div class="chart-data-item almost-ready-bg -small"></div>
+							<div class="chart-col almost-ready-bg"></div>
+						</div><div class="col-wrapper ready">
+							<div class="chart-data-item ready-bg -small"></div>
+							<div class="chart-col ready-bg"></div>
+						</div>
+					</div>
+					<p id="RPT_2.10" class="disclaimer">
+						Your readiness score is calculated based on the answers from the survey, plus information of how your business stands against competitors.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class='sector-summary-container'>
+			<h3 id="RPT_2.11">How we <strong>calculate</strong> your readiness score</h3>
+		</div>
+	</div>
+	<div class="full-report-footer">
+		<h2 id="RPT_3.1" class="-white">View your full <strong>Ready Business</strong> report</h2>
+		<div id="RPT_3.2" class="footer-button">View full report</div>
+	</div>
+	
+</section>
+	<section class="pre-lead">
+		<div class="capture-form">
+			<h2 id="RPT_4.1">Provide us with a few details to view your <strong>personalised report</strong></h2>
+			<p id="RPT_4.2" class="subtext">*Required Fields</p>
+			<form id="RPT_4.3">
+				<div class="row" data-error-mandatory="Please enter your first and last name">
+					<input type="text" placeholder="* First name" class="mandatory"/>
+					<input type="text" placeholder="* Last name" class="mandatory"/>
+				</div>
+				<input type="text" placeholder="Company name"/>
+				<input type="text" placeholder="* Email address" class="mandatory" data-error-mandatory="Please enter your email address"/>
+				<input type="text" placeholder="* Contact number" class="mandatory" data-error-mandatory="Please enter your contact number"/>
+				
+				<div class= "terms-wrapper">
+					<input type="checkbox" class="mandatory" id="capture-check" name="capture-check" data-error-mandatory="Please confirm you accept the Terms &amp; Conditions" />
+					<label for="capture-check">
+						<span id="dummy-checkbox"></span>
+						<span class="text">
+							<a  id="RPT_4.4" href="http://www.vodafone.com" target="_blank">Terms &amp; conditions</a> - By providing us with your details you are agreeing that Vodafone can give you a call regarding the information captured 
+						</span>
+					</label>
+				</div> 
+				<p class="general-error hide">
+					Sorry. You have one or more errors that need resolving.
+				</p>
+				<input id="RPT_4.5" type="submit" value="Submit to review your full report"/>
+			</form>
+		</div>
+</section>
+
+	<section class="post-lead">
+		<section class="full-report"></section>
+		<section class="outro-summary">
+	<h2 id="RPT_9.1" class="header-bar">Your <strong>Ready Business</strong> Summary</h2>
+	<div class="outro-summary-wrapper">
+		<div class="left-col">
+			<h3 id="RPT_9.3">Your <strong>current readiness score</strong></h3>
+			<div class="score-container original-rb-score"></div>
+			<p id="RPT_9.4">How we calculated your score</p>
+			<div class="sector-list"></div>
+		</div><!--
+		--><div class="right-col">
+			<h3 id="RPT_9.7">Your <strong class="readinessColor">potential readiness score</strong></h3>
+			<div class="score-container potential-rb-score"></div>
+			<p id="RPT_9.8" class="sub-heading">Based on the products that you added</p>
+			<div class="product-grid"></div>
+		</div>
+	</div>
+</section>		
+		<section class="share-report">
+	<div class="share-report-inner">
+		<h3 id="RPT_10.1">Share your personalised report with your network</h3>
+		<a id="RPT_10.2" class="share-button email" href="#">Send via email</a>
+		<div id="RPT_10.3" class="share-button link">Copy direct link</div>
+	</div>
+</section>
+	</section>
+
+	<section class="contact">
+	<h2id="RPT_5.1"><strong>Let's talk</strong> Ready Business</h2>
+
+	<pid="RPT_5.2">Give us a call and find out what we can do to help your business reach its full potential.</p>
+
+	<p>Standard call charges apply - please check with your provider.</p>
+
+	<div class="contact-wrapper">
+		<!-- Telephone numbers inserted from contact.json -->
+		<p id="RPT_5.3">Or talk with your account manager</p>
+	</div>
+</section>
+	<footer class="share-tool">
+	<div class="wrapper">
+		<div class="back-link">
+		 	<a id="RPT_6.1" href="dummy_landing.html" class="chevron">
+		 		Go to <strong>South Africa</strong> Ready Business
+		 	</a>
+		</div>
+		<div class="share-list">
+			<div class="tcell">
+				<h5 id="RPT_6.2">Share this tool:</h5>
+			</div>
+			<div class="tcell"></div>
+			<div class="tcell">
+				<a id="RPT_6.3" class="social-link email"><span>Email</span></a>
+				<a id="RPT_6.4" class="social-link twitter" href="" id="tweet" rel="nofollow" target="_blank" title="Tweet this Page"><span>Twitter</span></a>
+				<a id="RPT_6.5" class="social-link linkedIn" href="" id="linkedin" rel="nofollow" target="_blank" title="Share on LinkedIn"><span>LinkedIn</span></a>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+<div class="no-js-msg">
+    <div class="text">
+        <h3 id="RPT_11.1">You have JavaScript disabled</h3>
+        <p id="RPT_11.2">This survey requires the use of JavaScript to work. Please ensure that you have JavaScript turned on in your browser settings and then refresh this page.</p>
+    </div>
+</div>
+<div class="error-msg">
+    <div class="text">
+        <h3 id="RPT_11.3">Error</h3>
+        <p id="RPT_11.4">Sorry there was a problem loading this page. Please try again later.</p>
+    </div>
+</div>
+
+<script src="./js/vendor/jquery.placeholder.min.js"></script>
+<script src="./js/circle_graph.js"></script>
+<script src="./js/sticky_nav.js"></script>
+<script src="./js/report.js"></script>
+
+
+</body> 
+
+</html>

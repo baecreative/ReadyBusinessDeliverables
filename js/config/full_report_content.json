@@ -1,0 +1,38 @@
+{
+	"full_report_content": {
+		"skip_lead_capture": "false",
+		"sticky_nav_offset": 300,
+		"review_answers_expand": "Review what you told us",
+		"review_answers_close": "Close",
+		"review_answers_heading": "You told us that...",
+		"products_intro": "Add these products to <strong>improve your readiness score</strong>",
+		"no_products_intro": "Read our <strong>case studies on {SECTOR_NAME}</strong>",
+		"circle_graph_labels" : {
+			"inner_label_total": "You are <strong>{TOTAL_READINESS}</strong>",
+			"inner_label_total_static": "You are <strong>{TOTAL_READINESS_STATIC}</strong>",
+			"inner_label_sector": "Your business is<br/><strong>{SECTOR_READINESS}</strong>",
+			"inner_label_sector_static": "Your business is<br/><strong>{SECTOR_READINESS_STATIC}</strong>",
+			"not_applicable": "N/A"
+		},
+		"sector_graph_heading": "Your <strong>{SECTOR_NAME}</strong> score",
+		"total_graph_heading": "Your overall <strong>readiness score</strong>",
+		"sector_content": [
+			{
+				"sectorId": "sector_1",
+				"intro": "By making the way your business operates more flexible, & resilient, more seamless & more secure you can respond quickly to changing market conditions to take advantage of new opportunities."
+			},
+			{
+				"sectorId": "sector_2",
+				"intro": "By enabling  your employees to work how, when and where they need to, whilst  retaining control over costs and security, you can be more productive, improve employee engagement and get to market faster."
+			},
+			{
+				"sectorId": "sector_3",
+				"intro": "By giving your customers the ability to interact with you in any way they want you can give them an experience that increases their satisfaction."
+			}
+		],
+		"potential_score_sub_heading": {
+			"selected": "Based on the products that you added",
+			"not_selected": "Select products below to <strong>increase your readiness score</strong>"
+		}
+	}
+}

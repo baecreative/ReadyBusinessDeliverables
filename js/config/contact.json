@@ -1,0 +1,37 @@
+{
+	"contact": {
+		"contact_groups": [
+			{
+				"title": "Existing customers",
+				"contact_details": [
+					{
+						"title": "1-9 Employees",
+						"icon": "./img/icons/employee.svg",
+						"contact_detail": "0808 060 0802"
+					},
+					{
+						"title": "10-99 Employees",
+						"icon": "./img/icons/employees.svg",
+						"contact_detail": "0808 060 0802"
+					}
+				]
+			},
+			{
+				"title": "New customers",
+				"contact_details": [
+					{
+						"title": "1-9 Employees",
+						"icon": "./img/icons/employee.svg",
+						"contact_detail": "0808 060 0802"
+					},
+					{
+						"title": "10-99 Employees",
+						"icon": "./img/icons/employees.svg",
+						"contact_detail": "0808 060 0802"
+					}
+				]
+			}
+			
+		]
+	}
+}

@@ -1,0 +1,714 @@
+
+	{
+		"level4_question_data": [
+			{
+				"id": 28,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you have no office internet",
+							"body": "The rise in digital communications, and the ability to capture vast amounts of data, creates opportunities for businesses to gain new insights into customer behaviours and preferences and use them to achieve competitive advantage"
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have slow or unreliable internet",
+							"body": "Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you have mobile internet",
+							"body": "This is good news, Younger generations are entering the workforce with very different expectations of how they can communicate and share information"
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you have fixed internet",
+							"body": "You should also consider mobile working practices, pressures on organisations to reduce their carbon footprint are encouraging them to re-evaluate working practices"
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you have effective fixed and mobile internet",
+							"body": "This is good news. Advances in consumer technology and the rise of social networking are changing people’s expectations of how, when and where they can interact and share information so it is important to have a range of connectivity options"
+						}
+					}
+				]
+			},			
+			{
+				"id": 12,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that your costs are too high with regards to making calls",
+							"body": "By using Vodafone's simple management tools you can easily get visibility of your spend so you can control your costs effectively"
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you cannot manage your spend with regards to making calls",
+							"body": "Vodafone offers simple solutions to give you visibility of your spend to help control your costs more effectively"
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you only have a mobile number",
+							"body": "Mobile devices enable you to keep in contact with your customers, suppliers & employees at all times, but if you want to have a local presence our OneNet solution enables calls to landline numbers to be routed to your mobile phone"
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you only have a landline number",
+							"body": "Withour a mobile device you are potentially missing out on new business while you are out and about. With our One Net service you can easily pick up calls to your fixed number on your mobile device"
+						}
+
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said you do not have conference call facilities",
+							"body": "Evidence shows..."
+						}
+
+					},
+					{
+						"reporting_val": "6",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said you do not face any issues when making calls",
+							"body": "Consumers are becoming less loyal, if they can't get in touch with you easily, in the ways they want, it will be harder to compete"
+						}
+
+					}
+				]
+			},
+			{
+				"id": 13,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said I am often in meetings and unable to take calls",
+							"body": "Evidence shows being unable to take calls..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that I miss calls outside of working hours",
+							"body": "Evidence shows missed calls..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that calls are not routed to the correct teams",
+							"body": "Evidence shows calls not being routed..."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that outside you only have a mobile number",
+							"body": "Evidence shows that only having a mobile number..."
+						}
+
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that I only have a fixed number",
+							"body": "Evidence shows only having a fixed number..."
+						}
+
+					},
+					{
+						"reporting_val": "6",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you do not have voicemail. efbwui fuiwbe fewi ewngoi",
+							"body": "Evidence shows not having a voicemail..."
+						}
+
+					},
+					{
+						"reporting_val": "7",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that I do not have a receptionist",
+							"body": "Evidence shows not having a receptionist..."
+						}
+
+					},
+					{
+						"reporting_val": "8",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you have no issues receiving calls",
+							"body": "Evidence shows..."
+						}
+
+					}
+				]
+			},
+			{
+				"id": 14,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Broadcast/outdoor advertising, e.g. TV, radio, billboards",
+							"body": "Evidence shows Broadcast/outdoor advertising, e.g. TV, radio, billboards..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Print advertising, e.g. press, business directories",
+							"body": "Evidence shows Print advertising, e.g. press, business directories..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Public Relations",
+							"body": "Evidence shows Public Relations..."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Events and experiences",
+							"body": "Evidence shows Events and experiences..."
+						}
+
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Direct marketing e.g. email, direct mail",
+							"body": "Evidence shows Direct marketing e.g. email, direct mail..."
+						}
+
+					},
+					{
+						"reporting_val": "6",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Digital banner advertising",
+							"body": "Evidence shows Digital banner advertising..."
+						}
+
+					},
+					{
+						"reporting_val": "7",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Search marketing and SEO",
+							"body": "Evidence shows Search marketing and SEO..."
+						}
+
+					},
+					{
+						"reporting_val": "8",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do Social media, e.g. Facebook",
+							"body": "Evidence shows Social media, e.g. Facebook..."
+						}
+
+					},
+					{
+						"reporting_val": "9",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do not do marketing activities",
+							"body": "Evidence shows marketing activities can..."
+						}
+
+					}
+				]
+			},
+			{
+				"id": 15,
+				"sectorId": "sector_3",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said your website needs to be improved",
+							"body": "Evidence shows out of date websites..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that your website  does not receive enough traffic",
+							"body": "Evidence shows not having enough traffic..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that your  website does not generate enough sales",
+							"body": "Evidence shows not generating enough sales..."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that your website generates more than half of my business opportunities",
+							"body": "Evidence shows a good website..."
+						}
+
+					}
+				]
+			},
+			{
+				"id": 16,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do do not manage employee attendance",
+							"body": "Evidence shows not manging employee attendance..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.20,
+						"associated_text": {
+							"title": "You said that you have a Timesheets / Register",
+							"body": "Evidence shows timesheets..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you manage employee attendance with Access control",
+							"body": "Evidence shows Access control..."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you manage employee attendance with an automated system",
+							"body": "Evidence shows automated systems..."
+						}
+
+					}
+				]
+			},
+			{
+				"id": 17,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do not manage employee spend",
+							"body": "Evidence shows not managing employee spend..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.20,
+						"associated_text": {
+							"title": "You said you are using monthly invoices at the end of the month to manage employee spend",
+							"body": "Evidence shows employee spend..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said each employee receives a monthly limit to manage employee spend",
+							"body": "Evidence shows employee limits..."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said to manage employee spend you have signed agreements with the employee",
+							"body": "Evidence shows signed agreements..."
+						}
+
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you manage employee spend proactively through the month",
+							"body": "Evidence shows manging spend proactively..."
+						}
+
+					}
+				]
+			},
+			{
+				"id": 19,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do not have adequate tools to manage payroll",
+							"body": "Evidence shows managing payroll..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.65,
+						"associated_text": {
+							"title": "You said that you have Installed Software to manage payroll",
+							"body": "Evidence shows Installed Software ..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you have Cloud software to manage payroll",
+							"body": "Evidence shows Cloud software..."
+						}
+
+					}
+				]
+			},
+			{
+				"id": 20,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that to communicate internally within your business and your staff you have Telephonic communication",
+							"body": "Evidence shows Telephonic communication..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that to communicate internally within your business and your staff you have Face-to-face communication",
+							"body": "Evidence shows Face-to-face communication..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that to communicate internally within your business and your staff you have Email / Text communication",
+							"body": "Evidence shows Email / Text communication..."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that to communicate internally within your business and your staff you have Shared documentation",
+							"body": "Evidence shows Shared documentation..."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that to communicate internally within your business and your staff you have Video conferencing",
+							"body": "Evidence shows Video conferencing..."
+						}
+					}
+				]
+			},
+
+			{
+				"id": 21,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you are able to track your vehicle, manage routes, review reports and logs as well as recover your vehicle if it is stolen",
+							"body": "Evidence shows vehicle tracking..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you are able to track your vehicle, manage routes, review reports and logs as well as recover your vehicle if it is stolen",
+							"body": "Evidence shows vehicle tracking..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you are partially able to track your vehicle, manage routes, review reports and logs as well as recover your vehicle if it is stolen",
+							"body": "Evidence shows vehicle tracking..."
+						}
+
+					}
+				]
+			},
+			
+			{
+				"id": 22,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do not have network security",
+							"body": "Evidence shows network security..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.25,
+						"associated_text": {
+							"title": "You said that you use spam filters",
+							"body": "Evidence shows spam filters..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.25,
+						"associated_text": {
+							"title": "You said that you have Website monitoring",
+							"body": "Evidence shows Website monitoring..."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.25,
+						"associated_text": {
+							"title": "You said that you have Device management",
+							"body": "Evidence shows Device management..."
+						}
+					}
+				]
+			},
+			{
+				"id": 23,
+				"sectorId": "sector_3",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you have a Physical diary for appointments",
+							"body": "Evidence shows physical diaries..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you are using email calendar",
+							"body": "Evidence shows email calendar..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.4,
+						"associated_text": {
+							"title": "You said that you have Appointment booking software",
+							"body": "Evidence shows Appointment booking software..."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that I do not effectively manage appointments",
+							"body": "Evidence shows not managing appointments..."
+						}
+					}
+				]
+			},
+			{
+				"id": 24,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said you do not store business information",
+							"body": "Evidence shows storing business information..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you manage the storage of all your necessary business information with Physical storage",
+							"body": "Evidence shows Physical storage ..."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that you manage the storage of all your necessary business information with External hard drives",
+							"body": "Evidence shows External hard drives..."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.05,
+						"associated_text": {
+							"title": "You said that you manage the storage of all your necessary business information on your computer",
+							"body": "Evidence shows storing on your computer..."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.25,
+						"associated_text": {
+							"title": "You said you manage the storage of all your necessary business information on Disaster recovery sites",
+							"body": "Evidence shows Disaster recovery sites..."
+						}
+					},
+					{
+						"reporting_val": "6",
+						"weight": 0.15,
+						"associated_text": {
+							"title": "You said that you manage the storage of all your necessary business information on a server",
+							"body": "Evidence shows on a server..."
+						}
+					},
+					{
+						"reporting_val": "7",
+						"weight": 0.20,
+						"associated_text": {
+							"title": "You said you manage the storage of all your necessary business information on Cloud storage",
+							"body": "Evidence shows Cloud storage..."
+						}
+					}
+				]
+			},
+			{
+				"id": 25,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that  you run effective meetings irrespective of your location",
+							"body": "Evidence shows effective meetings..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do not run effective meetings irrespective of your location",
+							"body": "Evidence shows effective meetings..."
+						}
+					}
+				]
+			},
+			{
+				"id": 26,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you have access to your emails and calendar on the go",
+							"body": "Evidence shows access..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said that you do not have access to your emails and calendar on the go",
+							"body": "Evidence shows access..."
+						}
+					}
+				]
+			},
+			{
+				"id": 27,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.9,
+						"associated_text": {
+							"title": "You said that you general receive high volume of e-mail spam and unsolicited e-mail",
+							"body": "Evidence shows unsolicited e-mail..."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.1,
+						"associated_text": {
+							"title": "You said you do not receive high volume of e-mail spam and unsolicited e-mail",
+							"body": "Evidence shows unsolicited e-mail..."
+						}
+					}
+				]
+			}
+		]
+	}

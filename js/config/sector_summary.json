@@ -1,0 +1,79 @@
+{
+	"sector_summary": [
+		{
+			"id": "sector_1",
+			"summary_text": [
+				{
+					"readiness": "ready",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "almostReady",
+					"text": "From your answers we believe that your company is slow to adapt to changes. Innovation is..."
+				},
+				{
+					"readiness": "unready",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "atRisk",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "undefined",
+					"text": "Based on your survey answers, the {SECTOR_NAME} category is not applicable to your readiness report."
+				}
+			]
+		},
+		{
+			"id": "sector_2",
+			"summary_text": [
+				{
+					"readiness": "ready",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "almostReady",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "unready",
+					"text": "We believe that your employees could be more connected allowing them to be productive wherever they are."
+				},
+				{
+					"readiness": "atRisk",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "undefined",
+					"text": "Based on your survey answers, the {SECTOR_NAME} category is not applicable to your readiness report."
+				}
+			]
+		},
+		{
+			"id": "sector_3",
+			"summary_text": [
+				{
+					"readiness": "ready",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "almostReady",
+					"text": "From your answers we believe that your company is slow to adapt to changes. Innovation is..."
+				},
+				{
+					"readiness": "unready",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "atRisk",
+					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+				},
+				{
+					"readiness": "undefined",
+					"text": "Based on your survey answers, the {SECTOR_NAME} category is not applicable to your readiness report."
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{ 
+	"social_links" : {
+		"url": "http://www.vodafone.com/readybusiness",
+		"title": "Are you a Ready Business?",
+	    "email":   { 
+	        	"bodytext" : "Check out Vodafone's Ready Business Tool: "
+	    },
+	    "linkedin":   { 
+	        	"bodytext" : "Check out Vodafone's Ready Business Tool: "
+	    },
+	    "twitter":   { 
+	        	"bodytext" : "Check out Vodafone's Ready Business Tool: "
+	    }
+    }
+}

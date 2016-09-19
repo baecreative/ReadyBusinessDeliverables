@@ -1,0 +1,7 @@
+{
+	"landing": {
+		"graph_percentage": 50,
+		"graph_inner_label": "Unready",
+		"graph_outer_label": "Average in your country"
+	}
+}

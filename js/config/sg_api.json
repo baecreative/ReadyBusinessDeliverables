@@ -1,0 +1,14 @@
+{
+	"api_url": "https://restapi.surveygizmo.com/v4/survey/",
+	"api_key": "0e51631a3ff063aa11bbb27f75c81e9a0ea690e291d8e4062e",
+	"api_secret_key": "A9SjzkXsaDIUs",
+	"hidden_value_ids": {
+		"rbScores": {
+			"total": 185,
+			"sector_1": 186,
+			"sector_2": 188,
+			"sector_3": 187
+		},
+		"leadCapture_submitted": 189
+	}
+}

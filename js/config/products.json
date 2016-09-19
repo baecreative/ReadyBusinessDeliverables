@@ -1,0 +1,266 @@
+{
+	"products": [
+		{
+			"id": "product_1",
+			"title": "Vodacom Mobile contracts",
+			"description": "Vodacom Mobile contracts description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 1,
+			"article_id": "article_1",
+			"display_logic": [
+				{	
+					"questionId": 12,
+					"additional_logic": "(12.1)"
+				},
+				{	
+					"questionId": 28,
+					"additional_logic": "(7.1 OR 7.3)"
+				}
+			]
+		},
+		{
+			"id": "product_2",
+			"title": "Broadband Connect suite",
+			"description": "Broadband Connect Wireless empowers your business to stay connected. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas.",
+			"image": "img/product-img/Vodafone_Product2.jpg",
+			"priority": 3,
+			"article_id": "article_2",
+			"display_logic": [
+				{	
+					"questionId": 28,
+					"additional_logic": "(7.2 OR 7.3)"
+				}
+			]					
+		},
+		{
+			"id": "product_3",
+			"title": "SpendManager",
+			"description": "SpendManager description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 5,
+			"article_id": "article_3",
+			"display_logic": [
+				{	
+					"questionId": 12,
+					"additional_logic": "(12.1 OR 12.2)"
+				},
+				{	
+					"questionId": 17
+				}
+			]					
+		},
+		{
+			"id": "product_4",
+			"title": "One Net Express",
+			"description": "Never miss another business call. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product2.jpg",
+			"priority": 7,
+			"article_id": "article_1",
+			"display_logic": [
+				{	
+					"questionId": 12,
+					"additional_logic": "(12.3)"
+				},
+				{	
+					"questionId": 13
+				},
+				{	
+					"questionId": 20
+				}
+			]					
+		},
+		{
+			"id": "product_5",
+			"title": "Lync",
+			"description": "Lync description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 8,
+			"article_id": "article_4",
+			"display_logic": [
+				{	
+					"questionId": 12,
+					"additional_logic": "(12.5)"
+				}
+			]					
+		},
+		{
+			"id": "product_6",
+			"title": "Website Builder",
+			"description": "Website Builder description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product4.jpg",
+			"priority": 7,
+			"article_id": "article_3",
+			"display_logic": [
+				{	
+					"questionId": 14,
+					"additional_logic": "(9.2)"
+				},
+				{
+					"questionId": 15
+				}
+			]					
+		},
+		{
+			"id": "product_7",
+			"title": "Hosted CRM",
+			"description": "Hosted CRM description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product3.jpg",
+			"priority": 3,
+			"article_id": "article_5",
+			"display_logic": [
+				{	
+					"questionId": 14,
+					"additional_logic": "(NOT 14.5)"
+				}
+			]					
+		},
+		{
+			"id": "product_8",
+			"title": "Bulk SMS",
+			"description": "Bulk SMS description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 2,
+			"article_id": "article_2",
+			"display_logic": [
+				{	
+					"questionId": 14,
+					"additional_logic": "(NOT 14.5)"
+				}
+			]					
+		},
+		{
+			"id": "product_9",
+			"title": "LiveTrack vehicle tracking",
+			"description": "LiveTrack vehicle tracking description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 10,
+			"article_id": "article_2",
+			"display_logic": [
+				{	
+					"questionId": 21
+				}
+			]					
+		},
+		{
+			"id": "product_10",			
+			"title": " Secure Network and VSDM (Vodacom Security Device Manager)",
+			"description": "Secure Network and VSDM description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product4.jpg",
+			"priority": 7,
+			"article_id": "article_6",
+			"display_logic": [
+				{	
+					"questionId": 22
+				},
+				{
+					"questionId": 27
+				}
+			]					
+		},
+		{
+			"id": "product_11",
+			"title": "Cloud Backup",
+			"description": "Efficient secure back-up you control. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product2.jpg",
+			"priority": 2,
+			"article_id": "article_6",
+			"display_logic": [
+				{	
+					"questionId": 24,
+					"additional_logic": "(3.1 or 3.2)"
+				}
+			]					
+		},
+		{
+			"id": "product_12",
+			"title": "Managed Backup",
+			"description": "Managed Backup description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 8,
+			"article_id": "article_3",
+			"display_logic": [
+				{	
+					"questionId": 24,
+					"additional_logic": "(3.3 OR 3.4 OR 3.5)"
+				}
+			]					
+		},
+		{
+			"id": "product_13",
+			"title": "Conference Connect",
+			"description": "Conference Connect description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product1.jpg",
+			"priority": 5,
+			"article_id": "article_3",
+			"display_logic": [
+				{	
+					"questionId": 25
+				},
+				{
+					"questionId": 20,
+					"additional_logic": "(NOT 20.5)"
+				}
+			]					
+		},
+		{
+			"id": "product_14",
+			"title": "Office 365",
+			"description": "Office 365 description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product4.jpg",
+			"priority": 2,
+			"article_id": "",
+			"display_logic": [
+				{	
+					"questionId": 26
+				},
+				{	
+					"questionId": 20,
+					"additional_logic": "(NOT 20.5)"
+				},
+				{
+					"questionId": 23
+				}
+			]					
+		},
+		{
+			"id": "product_15",
+			"title": "Econz Wireless",
+			"description": "Econz Wireless description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product2.jpg",
+			"priority": 7,
+			"article_id": "article_6",
+			"display_logic": [
+				{	
+					"questionId": 16
+				}
+			]					
+		},
+		{
+			"id": "product_16",
+			"title": "SAP Business One",
+			"description": "SAP Business One description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product3.jpg",
+			"priority": 9,
+			"article_id": "article_2",
+			"display_logic": [
+				{	
+					"questionId": 19
+				}
+			]					
+		},
+		{
+			"id": "product_17",
+			"title": "Onedrive",
+			"description": "Onedrive description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"image": "img/product-img/Vodafone_Product3.jpg",
+			"priority": 13,
+			"article_id": "article_5",
+			"display_logic": [
+				{	
+					"questionId": 20,
+					"additional_logic": "(NOT 20.4)"
+				}
+			]				
+		}
+	]
+}

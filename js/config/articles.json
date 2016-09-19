@@ -1,0 +1,121 @@
+
+	{
+		"articles": [
+			{
+				"id": "article_1",
+				"title": "Article 1 title",
+				"description": "Find out how Article 1 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+				"image": "img/article-img/Vodafone_Product2.jpg",
+				"url": "http://www.google.co.uk",
+				"link_text": "Read the case study",
+				"priority": 3,
+				"fallback": [ "sector_2", "sector_1", "sector_3" ],
+				"display_logic": [
+					{	
+						"questionId": 28,
+						"additional_logic": "(28.5)"
+					}
+				]
+			},
+			{
+				"id": "article_2",
+				"title": "Article 2 title",
+				"description": "Find out how Article 2 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur. Etiam quis elit erat. Integer id imperdiet dui. Sed feugiat, leo in dictum cursus, nunc dui sagittis leo, vitae rutrum magna ex vitae tortor.",
+				"image": "img/article-img/Vodafone_Product1.jpg",
+				"url": "http://ww.google.co.uk",
+				"link_text": "Read the whitepaper",
+				"fallback": [ "sector_3" ]
+			},
+			{
+				"id": "article_3",
+				"title": "Article 3 title",
+				"description": "Article 3 description... Etiam quis elit erat. Integer id imperdiet dui. Sed feugiat, leo in dictum cursus, nunc dui sagittis leo, vitae rutrum magna ex vitae tortor.",
+				"image": "img/article-img/Vodafone_Product4.jpg",
+				"fallback": [ "sector_1" ]
+			},
+			{
+				"id": "article_4",
+				"title": "Article 4 title",
+				"description": "Find out how Article 4 can improve your business. Etiam quis elit erat. Integer id imperdiet dui. Sed feugiat, leo in dictum cursus, nunc dui sagittis leo, vitae rutrum magna ex vitae tortor.",
+				"image": "img/article-img/Vodafone_Product4.jpg",
+				"url": "http://www.google.co.uk",
+				"link_text": "Read the case study"
+			},
+			{
+				"id": "article_5",
+				"title": "Article 5 title",
+				"description": "Find out how Article 5 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+				"image": "img/article-img/Vodafone_Product3.jpg",
+				"url": "",
+				"fallback": [ "sector_3" ],
+				"link_text": "Read the case study"
+			},
+			{
+				"id": "article_6",
+				"title": "Article 6 title",
+				"description": "Find out how Article 6 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+				"image": "img/article-img/Vodafone_Product3.jpg",
+				"url": "",
+				"priority": 5,
+				"fallback": [ "sector_2", "sector_3" ],
+				"link_text": "Read the case study",
+				"display_logic": [
+					{	
+						"questionId": 24,
+						"additional_logic": "(24.3 AND 24.4)"
+					}
+				]
+			},
+			{
+				"id": "article_7",
+				"title": "Article 7 title",
+				"description": "Find out how Article 7 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+				"image": "img/article-img/Vodafone_Product1.jpg",
+				"url": "",
+				"priority": 7,
+				"link_text": "Read the case study",
+				"fallback": [ "sector_1" ],
+				"display_logic": [
+					{	
+						"questionId": 15
+					}
+				]
+			},
+			{
+				"id": "articl_8",				
+				"title": "Article 8 title",
+				"description": "Find out how flexible working can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"image": "img/article-img/Vodafone_Product2.jpg",
+				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
+				"link_text": "Read the guide",
+				"priority": 1,
+				"fallback": [ "sector_1" ],
+				"display_logic": [
+				]
+			},
+			{
+				"id": "articl_9",
+				"title": "Article 9 title",
+				"description": "See how OneNet & Google Apps can improve your productivity. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+				"image": "img/article-img/Vodafone_Product2.jpg",
+				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
+				"link_text": "Read the article",
+				"priority": 1,
+				"fallback": [ "sector_1" ],
+				"display_logic": [
+				]
+			},
+			{
+				"id": "articl_10",
+				"title": "Article 10 title",
+				"description": "Find out if you are ready to embrace digital. Own yo' condimentizzle, turpizzle sure congue consectetizzle, metus fo shut the shizzle up purus, egizzle ullamcorpizzle you son of a bizzle mi away quam.",
+				"image": "img/article-img/Vodafone_Product4.jpg",
+				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
+				"link_text": "Take a look at the infographic",
+				"priority": 1,
+				"fallback": [ "sector_1" ],
+				"display_logic": [
+				]
+			}
+		]
+	}
