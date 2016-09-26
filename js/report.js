@@ -989,13 +989,13 @@ ReportPage.prototype = {
 			introShare = $('section.share-report'),
 			$copyLinks = introShare.find('.link');
 
-		if (this.stickyNav.$shareDropDown) {
-			$copyLinks.add(this.stickyNav.$shareDropDown.find('.link'));
-		}
-
-	 	// set the email href
+		// set the email href
 		introShare.find('.email').attr('href',hrefString);
-		this.stickyNav.$shareDropDown.find('.email').attr('href',hrefString);
+
+		if (typeof this.stickyNav !== "undefined" && typeof this.stickyNav.$shareDropDown !== "undefined") {
+			$copyLinks.add(this.stickyNav.$shareDropDown.find('.link'));
+			this.stickyNav.$shareDropDown.find('.email').attr('href',hrefString);
+		}
 
 		// copy link to clipboard (if supported)
 
