@@ -1,57 +1,5 @@
-diff --git a/index.html b/index.html
-index 2ecef0d..7695e43 100644
---- a/index.html
-+++ b/index.html
-@@ -1,4 +1,6 @@
- <!doctype html>
-+<!-- RBI: index.html v2.1 -->
-+
- <!--[if lt IE 8 ]><html class="ie8 ie no-js"><![endif]-->
- <!--[if IE 9 ]><html class="ie9 ie no-js"><![endif]-->
- <!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"><!--<![endif]--> 
-diff --git a/js/accordion.js b/js/accordion.js
-index 3b04243..d623d48 100644
---- a/js/accordion.js
-+++ b/js/accordion.js
-@@ -1,4 +1,5 @@
--;
-+/** RBI: accordion.js v2.1 */
-+
- (function($, window, document, undefined) {
- 
-     var pluginName = 'accordionise',
-diff --git a/js/app.js b/js/app.js
-index 4897ffe..29e90f0 100644
---- a/js/app.js
-+++ b/js/app.js
-@@ -1,3 +1,5 @@
-+/** RBI: app.js v2.1 */
-+
- 'use strict';
- 
- function ReadyBusiness() {
-diff --git a/js/circle_graph.js b/js/circle_graph.js
-index 71c1ac3..f9cb172 100644
---- a/js/circle_graph.js
-+++ b/js/circle_graph.js
-@@ -1,3 +1,5 @@
-+/** RBI: circle_graph.js v2.1 */
-+
- 'use strict';
- 
- function CircleGraph(container) {
-diff --git a/js/landing.js b/js/landing.js
-index a9b7b3d..017d949 100644
---- a/js/landing.js
-+++ b/js/landing.js
-@@ -1,3 +1,5 @@
-+/** RBI: landing.js v2.1 */
-+
- 'use strict';
- 
- function LandingPage(rbApp, Velocity) {
 diff --git a/js/report.js b/js/report.js
-index 773c30e..d532eab 100644
+index 773c30e..6b441fa 100644
 --- a/js/report.js
 +++ b/js/report.js
 @@ -1,3 +1,5 @@
@@ -60,7 +8,17 @@ index 773c30e..d532eab 100644
  'use strict';
  
  function ReportPage(rbApp, Velocity) {
-@@ -503,7 +505,7 @@ ReportPage.prototype = {
+@@ -293,6 +295,9 @@ ReportPage.prototype = {
+ 					});
+ 
+ 				} else {
++					if (that.APIcallCount > 5) {
++						console.error('Failed to push data to SurveyGizmo API. Will retry in 15 seconds. If this error continues, check your API settings.')
++					}
+ 					window.setTimeout(function() {
+ 		  				that.getAPIResponseData();
+ 					}, 15000);
+@@ -503,7 +508,7 @@ ReportPage.prototype = {
  				}
  				totalWeights += parseFloat(value);
  			});
@@ -69,7 +27,7 @@ index 773c30e..d532eab 100644
  			return score;
  		}
  		return result; // this.rbScores
-@@ -514,52 +516,47 @@ ReportPage.prototype = {
+@@ -514,52 +519,47 @@ ReportPage.prototype = {
  			sectorProducts = this.displayedProducts[sector],
  			selectedProductIndex = sectorProducts.getIndexOfObject('id', productId),
  			selectedProduct = sectorProducts[selectedProductIndex],
@@ -148,7 +106,7 @@ index 773c30e..d532eab 100644
  
  		return modifiedWeights;
  	},
-@@ -898,6 +895,9 @@ ReportPage.prototype = {
+@@ -898,6 +898,9 @@ ReportPage.prototype = {
  			this.config.full_report_content.skip_lead_capture === "true" ||
  			this.config.full_report_content.skip_lead_capture === true) {
  
@@ -158,20 +116,26 @@ index 773c30e..d532eab 100644
  			// Hide the lead capture, show the report
  
  			// Populate full report content
-@@ -984,7 +984,11 @@ ReportPage.prototype = {
+@@ -984,11 +987,15 @@ ReportPage.prototype = {
  			bodyText = encodeURIComponent(this.config.email.body),
  			hrefString = "mailto:%20?subject=" + title + "&body=" + bodyText + urlEncoded,
  			introShare = $('section.share-report'),
 -			$copyLinks = introShare.find('.link').add(this.stickyNav.$shareDropDown.find('.link'));
 +			$copyLinks = introShare.find('.link');
+ 
+-	 	// set the email href
++		// set the email href
+ 		introShare.find('.email').attr('href',hrefString);
+-		this.stickyNav.$shareDropDown.find('.email').attr('href',hrefString);
 +
-+		if (this.stickyNav.$shareDropDown) {
++		if (typeof this.stickyNav !== "undefined" && typeof this.stickyNav.$shareDropDown !== "undefined") {
 +			$copyLinks.add(this.stickyNav.$shareDropDown.find('.link'));
++			this.stickyNav.$shareDropDown.find('.email').attr('href',hrefString);
 +		}
  
- 	 	// set the email href
- 		introShare.find('.email').attr('href',hrefString);
-@@ -1032,6 +1036,24 @@ ReportPage.prototype = {
+ 		// copy link to clipboard (if supported)
+ 
+@@ -1032,6 +1039,24 @@ ReportPage.prototype = {
  		}
  	},
  
@@ -196,7 +160,7 @@ index 773c30e..d532eab 100644
  	getProducts: function() {
  		var that = this,
  			filteredItems = {
-@@ -1068,41 +1090,115 @@ ReportPage.prototype = {
+@@ -1068,41 +1093,115 @@ ReportPage.prototype = {
  		this.displayedProducts = getTopPriorityItems(filteredItems, true);
  
  		// calculate and store the amount each product increases the sector & total scores
@@ -331,7 +295,7 @@ index 773c30e..d532eab 100644
  			});
  		});
  
-@@ -1607,7 +1703,8 @@ ReportPage.prototype = {
+@@ -1607,7 +1706,8 @@ ReportPage.prototype = {
  			regex = new RegExp("(&p[0-9]*=" + productId + ")([^0-9]?\\b)", "g");
  			product = that.displayedProducts[sectorId].getObject('id', productId);
  
@@ -341,7 +305,7 @@ index 773c30e..d532eab 100644
  				// Deselect
  				product.selected = false;
  				that.rbScores.sectors[sectorId] -= product.scoreChange;
-@@ -1625,7 +1722,15 @@ ReportPage.prototype = {
+@@ -1625,7 +1725,15 @@ ReportPage.prototype = {
  				// Select
  				product.selected = true;
  				that.rbScores.sectors[sectorId] += product.scoreChange;
@@ -357,20 +321,21 @@ index 773c30e..d532eab 100644
  				match = regex.exec(window.location.search);
  				if (match == null) {
  					new_params_string = window.location.search + '&p' + that.productSelectedCount + '=' + productId;
-@@ -1928,5 +2033,3 @@ if (!Object.keys) {
+@@ -1928,5 +2036,3 @@ if (!Object.keys) {
          return keys;
      };
  }
 -
 -
 diff --git a/js/survey.js b/js/survey.js
-index ac4c2ec..fbe9dc0 100644
+index ac4c2ec..2ff552d 100644
 --- a/js/survey.js
 +++ b/js/survey.js
-@@ -1,7 +1,17 @@
+@@ -1,13 +1,23 @@
+-window.survey = (function (rbApp, Velocity, TamingSelect) {
 +/** RBI: survey.js v2.1 */
 +
- window.survey = (function (rbApp, Velocity, TamingSelect) {
++window.survey = (function ($, rbApp, Velocity, TamingSelect) {
    	var pageData = {},
    		// AVERAGE_SURVEY_LENGTH
    		averageSurveyLength = 12,
@@ -385,6 +350,15 @@ index ac4c2ec..fbe9dc0 100644
    		pub = {
  		    init:  function () {
  		    	var that = this;
+-		    	$(document).ready(function() {
+-	    			that.equaliseAnswerBoxes();
+-	    		});
++				$(window).load(function() {
++					that.equaliseAnswerBoxes();
++				});
+ 
+ 		    	this.reportBody = $('.sg-body');
+ 		    	this.surveyFooter = this.reportBody.find('.sg-footer');
 @@ -25,6 +35,7 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
  		    	this.bindPageOut();
  
@@ -459,6 +433,16 @@ index ac4c2ec..fbe9dc0 100644
  			},
  			setFontQuestionSize: function() {
  				var question,
+@@ -225,7 +263,7 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
+   	};
+ 
+   	return pub;
+-})(window.rbApp, window.Velocity, window.tamingselect);
++})(jQuery, window.rbApp, window.Velocity, window.tamingselect);
+ 
+ $(document).on('blur', 'input, textarea', function() {
+ 	setTimeout(function() {
+
 diff --git a/report.html b/report.html
 index c3595ab..20a74f1 100644
 --- a/report.html
