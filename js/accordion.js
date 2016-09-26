@@ -1,4 +1,5 @@
-;
+/** RBI: accordion.js v2.1 */
+
 (function($, window, document, undefined) {
 
     var pluginName = 'accordionise',

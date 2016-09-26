@@ -1,3 +1,5 @@
+/** RBI: survey.js v2.1 */
+
 window.survey = (function (rbApp, Velocity, TamingSelect) {
   	var pageData = {},
   		// AVERAGE_SURVEY_LENGTH

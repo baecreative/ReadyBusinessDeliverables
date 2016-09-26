@@ -1,3 +1,5 @@
+/** RBI: landing.js v2.1 */
+
 'use strict';
 
 function LandingPage(rbApp, Velocity) {
