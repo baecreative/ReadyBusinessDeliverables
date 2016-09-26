@@ -1,3 +1,5 @@
+/** RBI: sticky_nav.js v2.1 */
+
 'use strict';
 
 function StickyNav(app, Velocity) {
