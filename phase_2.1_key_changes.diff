@@ -1,0 +1,506 @@
+diff --git a/index.html b/index.html
+index 2ecef0d..7695e43 100644
+--- a/index.html
++++ b/index.html
+@@ -1,4 +1,6 @@
+ <!doctype html>
++<!-- RBI: index.html v2.1 -->
++
+ <!--[if lt IE 8 ]><html class="ie8 ie no-js"><![endif]-->
+ <!--[if IE 9 ]><html class="ie9 ie no-js"><![endif]-->
+ <!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"><!--<![endif]--> 
+diff --git a/js/accordion.js b/js/accordion.js
+index 3b04243..d623d48 100644
+--- a/js/accordion.js
++++ b/js/accordion.js
+@@ -1,4 +1,5 @@
+-;
++/** RBI: accordion.js v2.1 */
++
+ (function($, window, document, undefined) {
+ 
+     var pluginName = 'accordionise',
+diff --git a/js/app.js b/js/app.js
+index 4897ffe..29e90f0 100644
+--- a/js/app.js
++++ b/js/app.js
+@@ -1,3 +1,5 @@
++/** RBI: app.js v2.1 */
++
+ 'use strict';
+ 
+ function ReadyBusiness() {
+diff --git a/js/circle_graph.js b/js/circle_graph.js
+index 71c1ac3..f9cb172 100644
+--- a/js/circle_graph.js
++++ b/js/circle_graph.js
+@@ -1,3 +1,5 @@
++/** RBI: circle_graph.js v2.1 */
++
+ 'use strict';
+ 
+ function CircleGraph(container) {
+diff --git a/js/landing.js b/js/landing.js
+index a9b7b3d..017d949 100644
+--- a/js/landing.js
++++ b/js/landing.js
+@@ -1,3 +1,5 @@
++/** RBI: landing.js v2.1 */
++
+ 'use strict';
+ 
+ function LandingPage(rbApp, Velocity) {
+diff --git a/js/report.js b/js/report.js
+index 773c30e..d532eab 100644
+--- a/js/report.js
++++ b/js/report.js
+@@ -1,3 +1,5 @@
++/** RBI: report.js v2.1 */
++
+ 'use strict';
+ 
+ function ReportPage(rbApp, Velocity) {
+@@ -503,7 +505,7 @@ ReportPage.prototype = {
+ 				}
+ 				totalWeights += parseFloat(value);
+ 			});
+-			var score = Math.round(parseFloat(maxScore*(totalWeights/length)).toFixed(3));
++			var score = Math.floor(parseFloat(maxScore*(totalWeights/length)).toFixed(3));
+ 			return score;
+ 		}
+ 		return result; // this.rbScores
+@@ -514,52 +516,47 @@ ReportPage.prototype = {
+ 			sectorProducts = this.displayedProducts[sector],
+ 			selectedProductIndex = sectorProducts.getIndexOfObject('id', productId),
+ 			selectedProduct = sectorProducts[selectedProductIndex],
+-			otherProductIndex = flipFlop(selectedProductIndex),
+-			otherProduct = sectorProducts[otherProductIndex],
+ 			weight,
+-			objIndex,
+-			isShared,
+-			scoreChange,
+ 			maxIncrease = maxIncrease || false,
+-			modifiedWeights = clone(this.levelFourWeights);
++			modifiedWeights = clone(this.levelFourWeights),
++			cumScoreChange = 0;
+ 
++		// Loop over questions that this product relates to
+ 		$.each(selectedProduct.questions, function(index, questionId) {
+-			weight = that.levelFourWeights[sector][questionId];
+-			isShared = false;
++			if (typeof that.levelFourWeights[sector][questionId] === "undefined") {
++				return true;
++			}
+ 
++			weight = that.levelFourWeights[sector][questionId];
+ 			if (typeof weight === "undefined") {
+ 				return true;
+ 			}
++			// cumulative value of weight increases, if all weights are increased to the maximum of 1
++			cumScoreChange += parseFloat(1 - weight);
++		});
+ 
+-			if(typeof otherProduct.questions !== "undefined" && otherProduct.type === "product") {
+-				//does the other product affect this question?
+-				$.each(otherProduct.questions, function(index, questionId) {
+-					objIndex = $.inArray(questionId, selectedProduct.questions);
+-					if (objIndex !== -1) {
+-						isShared = true;
+-					}
+-				});
+-			}
++		// If the cumulative score change is greater than the maximum, use the maximum value
++		if (maxIncrease && cumScoreChange > maxIncrease) {
++			cumScoreChange = parseFloat(maxIncrease);
++		}
+ 
+-			if (maxIncrease) {
+-				scoreChange = maxIncrease;
+-			} else {
+-				if (!isShared) {
+-					scoreChange = parseFloat(1 - weight);
+-				} else {
+-					// the other product does affect this question therefore divide by 2
+-					scoreChange = parseFloat((1 - weight)/2);
+-				}
+-			}
++		if (typeof selectedProduct.questions !== "undefined" && selectedProduct.questions.length) {
++			// Get the ID of the first level 4 question related to this product
++			var questionId = Object.keys(modifiedWeights[sector])[0];
++
++			// Add or minus the the score change to the question weight, depending on if we are selecting a product (increasing the score),
++			// or deselecting a product (decreasing the score)
++			var levelFourWeights = that.levelFourWeights[sector][questionId];
++
++			levelFourWeights = (levelFourWeights===undefined)?0:levelFourWeights;
+ 
+-			// increase weight - select product
+ 			if (increase) {
+-				modifiedWeights[sector][questionId] = (parseFloat(that.levelFourWeights[sector][questionId]) + parseFloat(scoreChange)).toFixed(3);
++				modifiedWeights[sector][questionId] = (parseFloat(levelFourWeights) + parseFloat(cumScoreChange)).toFixed(3);
+ 			// decrease weight - deselect product
+ 			} else {
+-				modifiedWeights[sector][questionId] = (parseFloat(that.levelFourWeights[sector][questionId]) - parseFloat(scoreChange)).toFixed(3);
++				modifiedWeights[sector][questionId] = (parseFloat(levelFourWeights) - parseFloat(cumScoreChange)).toFixed(3);
+ 			}
+-		});
++		}
+ 
+ 		return modifiedWeights;
+ 	},
+@@ -898,6 +895,9 @@ ReportPage.prototype = {
+ 			this.config.full_report_content.skip_lead_capture === "true" ||
+ 			this.config.full_report_content.skip_lead_capture === true) {
+ 
++			//business request: show backlink just after form is submitted
++			$(".share-tool .wrapper .back-link").show();
++			
+ 			// Hide the lead capture, show the report
+ 
+ 			// Populate full report content
+@@ -984,7 +984,11 @@ ReportPage.prototype = {
+ 			bodyText = encodeURIComponent(this.config.email.body),
+ 			hrefString = "mailto:%20?subject=" + title + "&body=" + bodyText + urlEncoded,
+ 			introShare = $('section.share-report'),
+-			$copyLinks = introShare.find('.link').add(this.stickyNav.$shareDropDown.find('.link'));
++			$copyLinks = introShare.find('.link');
++
++		if (this.stickyNav.$shareDropDown) {
++			$copyLinks.add(this.stickyNav.$shareDropDown.find('.link'));
++		}
+ 
+ 	 	// set the email href
+ 		introShare.find('.email').attr('href',hrefString);
+@@ -1032,6 +1036,24 @@ ReportPage.prototype = {
+ 		}
+ 	},
+ 
++	// function to return number of products displayed on the report
++	getNumberOfProducts: function() {
++		var that = this,
++			productsLength = 0;
++
++		$.each(that.displayedProducts, function(sectorId, products) {
++			if (typeof that.rbScores.sectors[sectorId] === "undefined") {
++				return;
++			}
++			$.each(products, function(i, product) {
++				if (product.type === "product") {
++					productsLength++;
++				}
++			});
++		});
++		return productsLength;
++	},
++
+ 	getProducts: function() {
+ 		var that = this,
+ 			filteredItems = {
+@@ -1068,41 +1090,115 @@ ReportPage.prototype = {
+ 		this.displayedProducts = getTopPriorityItems(filteredItems, true);
+ 
+ 		// calculate and store the amount each product increases the sector & total scores
+-		var updatedScores, n, questionId, weight, totalScoreChange, weightIncrease, sectorQAnswered, cumWeight;
++		var questionId,
++			weight,
++			updatedScores,
++			sector_qsAnswered,
++			sector_productCount,
++			sector_maxScoreIncrease,
++			sector_maxWeightIncrease,
++			sector_updatedScores,
++			total_qsAnswered = 0,
++			total_maxScoreIncrease,
++			total_maxWeightIncrease,
++			total_updatedScores,
++			productsLength = this.getNumberOfProducts();
++
++		/*
++			Calculate the maximum amount the total score can increase by when one product is selected
++		 	(based on current score and number of products available to ensure that scores do not exceed the maximum of 90%
++
++		 	((maximum score - current score) / number of products available)
++			i.e. ((90% - 40%) / 5 products) = 10%
++
++			Each product can only increase the total score by a maximum of 10% so that scores do not exceed 90%
++		*/
++		total_maxScoreIncrease = Math.floor((that.config.max_score - that.rbScores.total_static)/productsLength);
++
++
++		var cumWeight = {
++			total: 0,
++			sectors: {}
++		};
++		$.each(that.levelFourWeights, function(sectorId, sectorWeights) {
++			cumWeight.sectors[sectorId] = 0;
++			$.each(sectorWeights, function(questionId, weight) {
++				// calculate cumulative weights
++				cumWeight.total += parseFloat(weight);
++				cumWeight.sectors[sectorId] += parseFloat(weight);
++			});
++			// count total number of level 4 questions answered
++			total_qsAnswered += Object.keys(sectorWeights).length;
++		});
+ 
++		// Loop through each product and determine the percentage value that this product will increase sector and total score by when selected
+ 		$.each(that.displayedProducts, function(sectorId, products) {
+ 			if (typeof that.levelFourWeights[sectorId] === "undefined") {
+ 				return true;
+ 			}
+ 
+-			sectorQAnswered = Object.keys(that.levelFourWeights[sectorId]);
++			// count how many level 4 questions were answered for this sector
++			sector_qsAnswered = Object.keys(that.levelFourWeights[sectorId]).length;
+ 
+-			$.each(products, function(i, product) {
+-				updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true));
++			// count how many products there are for this sector
++			sector_productCount = 0;
++			$.each(that.displayedProducts[sectorId], function(i, product) {
++				if (product.type === "product") {
++					sector_productCount++;
++				}
++			});
+ 
+-				// cap score increase to 25%
+-				if ((updatedScores.sectors[sectorId] - that.rbScores.sectors[sectorId]) > 25) {
++			/*
++				Calculate the maximum amount the sector score can increase by when one product is selected
++			 	(based on current score and number of products available to ensure that scores do not exceed the maximum of 90%).
+ 
+-					// work backwards to calculate total score increase when at 25% sector score increase.
+-					n = that.rbScores.sectors[sectorId] + 25;
+-					questionId = product.questions[0];
+-					cumWeight = 0;
+-					$.each(that.levelFourWeights[sectorId], function(questionId, weight) {
+-						cumWeight = parseFloat(cumWeight) + parseFloat(weight);
+-					});
++			 	((maximum score - current score) / number of products available)
++				i.e. ((90% - 40%) / 5 products) = 10%
+ 
+-					var m = ((n/that.config.max_score) * sectorQAnswered.length);
++				Each product can only increase the total score by a maximum of 10% so that scores do not exceed 90%
++			*/
++			sector_maxScoreIncrease = (that.config.max_score - that.rbScores.sectors_static[sectorId])/sector_productCount;
+ 
+-					weightIncrease = m - cumWeight;
+-					updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true, weightIncrease));
++			if (sector_maxScoreIncrease > 40) {
++				sector_maxScoreIncrease = 40;
++			}
++			total_maxWeightIncrease = (((total_maxScoreIncrease + that.rbScores.total_static/that.config.max_score) * total_qsAnswered) - cumWeight.total).toFixed(3);
+ 
+-					product.scoreChange = 25;
+-					product.scoreChangeTotal = updatedScores.total - that.rbScores.total_static;
++			// For each product in this sector
++			$.each(products, function(i, product) {
++
++				updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true));
++
++				// if total score increase or the sector score increase is greater than the maximum allowed
++				if ((updatedScores.total - that.rbScores.total_static) > total_maxScoreIncrease ||
++					(updatedScores.sectors[sectorId] - that.rbScores.sectors[sectorId]) > sector_maxScoreIncrease) {
++
++					// calculate the score increase when at maximum total score increase
++					total_updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true, total_maxWeightIncrease));
++
++					// if the sector score increase is still greater than the maximum allowed
++					// then use the maximum sector increase value to recalculate score increase
++					if ((total_updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId]) > sector_maxScoreIncrease) {
++						// recalculate
++						sector_maxWeightIncrease = ((((that.rbScores.sectors_static[sectorId] + sector_maxScoreIncrease)/that.config.max_score) * sector_qsAnswered) - cumWeight.sectors[sectorId]).toFixed(3);
++						sector_updatedScores = that.calculateScores(that.changeScore(product.id, sectorId, true, sector_maxWeightIncrease));
+ 
++						// store score change values
++						product.scoreChange = sector_updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId];
++						product.scoreChangeTotal = sector_updatedScores.total - that.rbScores.total_static;
++					} else {
++						// store score change values
++						product.scoreChange = total_updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId];
++						product.scoreChangeTotal = total_updatedScores.total - that.rbScores.total_static;
++					}
+ 				} else {
+-					product.scoreChange = updatedScores.sectors[sectorId] - that.rbScores.sectors[sectorId];
++					// store score change values
++					product.scoreChange = updatedScores.sectors[sectorId] - that.rbScores.sectors_static[sectorId];
+ 					product.scoreChangeTotal = updatedScores.total - that.rbScores.total_static;
+ 				}
++
++				product.scoreChange = product.scoreChange<0?0:product.scoreChange;
++				product.scoreChangeTotal = product.scoreChangeTotal<0?0:product.scoreChangeTotal;
+ 			});
+ 		});
+ 
+@@ -1607,7 +1703,8 @@ ReportPage.prototype = {
+ 			regex = new RegExp("(&p[0-9]*=" + productId + ")([^0-9]?\\b)", "g");
+ 			product = that.displayedProducts[sectorId].getObject('id', productId);
+ 
+-			if($this.parent().hasClass('selected')) {
++			//if($this.parent().hasClass('selected')) {
++			if(that.$pageWrapper.find('.item.product.'+productId).hasClass('selected')) {
+ 				// Deselect
+ 				product.selected = false;
+ 				that.rbScores.sectors[sectorId] -= product.scoreChange;
+@@ -1625,7 +1722,15 @@ ReportPage.prototype = {
+ 				// Select
+ 				product.selected = true;
+ 				that.rbScores.sectors[sectorId] += product.scoreChange;
++				// ensure score does not exceed maximum score
++				if (that.rbScores.sectors[sectorId] > that.config.max_score) {
++					that.rbScores.sectors[sectorId] = that.config.max_score;
++				}
+ 				that.rbScores.total += product.scoreChangeTotal;
++				// ensure score does not exceed maximum score
++				if (that.rbScores.total  > that.config.max_score) {
++					that.rbScores.total  = that.config.max_score;
++				}
+ 				match = regex.exec(window.location.search);
+ 				if (match == null) {
+ 					new_params_string = window.location.search + '&p' + that.productSelectedCount + '=' + productId;
+@@ -1928,5 +2033,3 @@ if (!Object.keys) {
+         return keys;
+     };
+ }
+-
+-
+diff --git a/js/survey.js b/js/survey.js
+index ac4c2ec..fbe9dc0 100644
+--- a/js/survey.js
++++ b/js/survey.js
+@@ -1,7 +1,17 @@
++/** RBI: survey.js v2.1 */
++
+ window.survey = (function (rbApp, Velocity, TamingSelect) {
+   	var pageData = {},
+   		// AVERAGE_SURVEY_LENGTH
+   		averageSurveyLength = 12,
++  		checkboxQuestions = [
++  			 /* Example minimum for a checkbox question 
++  			{
++  				questionId: 219,
++  				minimumSelection: 3
++  			}, */
++  			
++  		],
+   		pub = {
+ 		    init:  function () {
+ 		    	var that = this;
+@@ -25,6 +35,7 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
+ 		    	this.bindPageOut();
+ 
+ 	    		this.animatePageIn();
++				this.equaliseAnswerBoxes();
+ 		    },
+ 
+ 			setFontAnswerSize: function() {
+@@ -171,18 +182,26 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
+ 						toggleDropdown(questionWrapper);
+ 					});
+ 				// else if this is a radio button or checkbox question
+-				} else if (question.hasClass('sg-type-radio') || question.hasClass('sg-type-checkbox')) {
++				} else if (question.hasClass('sg-type-radio')) {
++					questionWrapper = $('.sg-list');
++					// Enable/disable Next button initially
++					toggleRadio(questionWrapper);
++					// Enable/disable Next button on change
++					questionWrapper.click(function() {
++						toggleRadio(questionWrapper);
++					});
++				} else if (question.hasClass('sg-type-checkbox')) {
+ 					questionWrapper = $('.sg-list');
+ 					// Enable/disable Next button initially
+-					toggleRadioCheckbox(questionWrapper);
++					toggleCheckbox(questionWrapper);
+ 					// Enable/disable Next button on change
+ 					questionWrapper.click(function() {
+-						toggleRadioCheckbox(questionWrapper);
++						toggleCheckbox(questionWrapper);
+ 					});
+ 				}
+ 				// function to toggle the enable class for dropdown menu questions
+-				function toggleDropdown(questionWrapper) {
+-					if($(questionWrapper).val() !== 'NoAnswer'){//} && $(questionWrapper).find('option:selected').length) {
++				function toggleDropdown(that) {
++					if($(that).val() !== 'NoAnswer'){//} && $(questionWrapper).find('option:selected').length) {
+ 						nextButton.addClass('enabled');
+ 						// fix for ios7 bug rendering next button
+ 						if ($('html').hasClass('ios7') && $('#survey-wrapper').hasClass('question-1') && (window.innerHeight < window.innerWidth)) {
+@@ -193,13 +212,32 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
+ 					}
+ 				}
+ 				// function to toggle the enable class for radio/checkbox questions
+-				function toggleRadioCheckbox(that) {
++				function toggleRadio(that) {
+ 					if($(that).find('input:checked').length) {
+ 						nextButton.addClass('enabled');
+ 					} else {
+ 						nextButton.removeClass('enabled');
+ 					}
+ 				}
++				function toggleCheckbox(that) {
++					var questionId = question.attr('id').split('-')[3];
++					questionIdIndex = checkboxQuestions.getIndexOfObject("questionId", questionId);
++					if (questionIdIndex !== -1 && checkboxQuestions[questionIdIndex].minimumSelection) {
++						var min = checkboxQuestions[questionIdIndex].minimumSelection,
++							questionsSelected = $(that).find('input:checked').length;
++						if (questionsSelected >= min) {
++							nextButton.addClass('enabled');
++						} else {
++							nextButton.removeClass('enabled');
++						}
++					} else {
++						if ($(questionWrapper).find('input:checked').length) {
++							nextButton.addClass('enabled');
++						} else {
++							nextButton.removeClass('enabled');
++						}
++					}
++				}
+ 			},
+ 			setFontQuestionSize: function() {
+ 				var question,
+diff --git a/report.html b/report.html
+index c3595ab..20a74f1 100644
+--- a/report.html
++++ b/report.html
+@@ -1,4 +1,6 @@
+ <!doctype html>
++<!-- RBI: Report.html v2.1 -->
++
+ <!--[if lt IE 8 ]><html class="ie8 ie no-js"><![endif]-->
+ <!--[if IE 9 ]><html class="ie9 ie no-js"><![endif]-->
+ <!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"><!--<![endif]--> 
+@@ -154,9 +156,9 @@ filter: none;
+ 	</section>
+ 
+ 	<section class="contact">
+-	<h2id="RPT_5.1"><strong>Let's talk</strong> Ready Business</h2>
++	<h2 id="RPT_5.1"><strong>Let's talk</strong> Ready Business</h2>
+ 
+-	<pid="RPT_5.2">Give us a call and find out what we can do to help your business reach its full potential.</p>
++	<p id="RPT_5.2">Give us a call and find out what we can do to help your business reach its full potential.</p>
+ 
+ 	<p>Standard call charges apply - please check with your provider.</p>
+ 
+diff --git a/survey.html b/survey.html
+index 7b4b08c..7595e92 100644
+--- a/survey.html
++++ b/survey.html
+@@ -1,4 +1,6 @@
+ <!doctype html>
++<!-- RBI: survey.html v2.1 -->
++
+ <!--[if lt IE 8 ]><html class="ie8 ie no-js"><![endif]-->
+ <!--[if IE 9 ]><html class="ie9 ie no-js"><![endif]-->
+ <!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"><!--<![endif]--> 
+@@ -58,8 +60,8 @@ filter: none;
+ 	</div>
+ 	
+ 	<!-- SURVEY GIZMO EMBED CODE -->
+-	<script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://www.surveygizmo.com/s3/2608845/Template-Ready-Business-Survey-copy?__output=embedjs&__ref=' + escape(document.location.origin + document.location.pathname) + '" type="text/javascript" ></scr'  + 'ipt>');</script><noscript>This survey is powered by SurveyGizmo's <a href="http://www.surveygizmo.com">online survey software</a>. <a href="http://www.surveygizmo.com/s3/2608845/Template-Ready-Business-Survey-copy??jsfallback=true">Please take my survey now</a></noscript><style>.sg-survey{display:none; }</style>
+-	<!-- SURVEY GIZMO EMBED CODE -->
++        <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://www.surveygizmo.com/s3/2841468/VGE-Ready-Business-Index-MAY-2016-COPY-SIT-Environment?__output=embedjs&__ref=' + escape(document.location.origin + document.location.pathname) + '" type="text/javascript" ></scr'  + 'ipt>');</script><noscript>Ask questions, get answers. <a href="https://www.surveygizmo.com/" title="Online Survey Software">SurveyGizmo</a> online survey software. <a href="http://www.surveygizmo.com/s3/2841468/VGE-Ready-Business-Index-MAY-2016-COPY-SIT-Environment??jsfallback=true">Please take my survey now</a></noscript><style>.sg-survey{display:none; }</style>
++    <!-- SURVEY GIZMO EMBED CODE -->
+ </div>
+ <div class="no-js-msg">
+     <div class="text">
