@@ -3,103 +3,93 @@
 		"level4_question_data": [
 			{
 				"id": 28,
-				"sectorId": "sector_1",
+				"sectorId": "sector_3",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you have no office internet",
-							"body": "The rise in digital communications, and the ability to capture vast amounts of data, creates opportunities for businesses to gain new insights into customer behaviours and preferences and use them to achieve competitive advantage"
+							"title": "You said that you completely agree that you listen to customers and take their views seriously",
+							"body": "That’s good because the most successful businesses not only ask customers for feedback, but also look to improve their service based on that information. With 81% businesses expecting their customers to get more demanding over the next four years, regular customer reviews will help to keep on top of rapid changes in the ways your customers want to interact and buy from you."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.2,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you have slow or unreliable internet",
-							"body": "Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+							"title": "You said that you partially agree you listen to customers and take their views seriously",
+							"body": "It's important that you act feedback from customers and have the process in place to look at how this feedback can be used to improve your service. With 81% of businesses believing their customers are going to become more demanding over the next four years not acting on these changing needs will drive customers to suppliers that do."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.4,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you have mobile internet",
-							"body": "This is good news, Younger generations are entering the workforce with very different expectations of how they can communicate and share information"
+							"title": "You said that you neither agree nor disagree that you listen to customers and take their views seriously",
+							"body": "Businesses that don't have a mechanism for customer feedback can fail to highlight bad experience or uncompetitive services. It's important to regularly understand how your customers rate your service, and ways they think it could be improved. 81% of businesses believe their customers will become more demanding over the next four years."
 						}
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.4,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that you have fixed internet",
-							"body": "You should also consider mobile working practices, pressures on organisations to reduce their carbon footprint are encouraging them to re-evaluate working practices"
+							"title": "You said that you mainly disagree that you listen to customers and take their views seriously",
+							"body": "Businesses that don't have a mechanism for customer feedback can fail to highlight bad experience or uncompetitive services. It's important to regularly understand how your customers rate your service, and ways they think it could be improved. 81% of businesses believe their customers will become more demanding over the next four years."
 						}
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.9,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said that you have effective fixed and mobile internet",
-							"body": "This is good news. Advances in consumer technology and the rise of social networking are changing people’s expectations of how, when and where they can interact and share information so it is important to have a range of connectivity options"
+							"title": "You said that you strongly disagree you listen to customers and take their views seriously",
+							"body": "Businesses that don't have a mechanism for customer feedback can fail to highlight bad experience or uncompetitive services. It's important to regularly understand how your customers rate your service, and ways they think it could be improved. 81% of businesses believe their customers will become more demanding over the next four years."
 						}
 					}
 				]
 			},			
 			{
 				"id": 12,
-				"sectorId": "sector_1",
+				"sectorId": "sector_3",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that your costs are too high with regards to making calls",
-							"body": "By using Vodafone's simple management tools you can easily get visibility of your spend so you can control your costs effectively"
+							"title": "You said that you are very likely to improve the utilisation of customer feedback to make business improvements",
+							"body": "This is the best way of ensuring you keep enhancing your offer to meet customers needs and you should do this on a regular basis as part of your day to day business operations."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you cannot manage your spend with regards to making calls",
-							"body": "Vodafone offers simple solutions to give you visibility of your spend to help control your costs more effectively"
+							"title": "You said that you are quite likely to improve the utilisation of customer feedback to make business improvements",
+							"body": "This is the best way of ensuring you keep enhancing your offer to meet customers needs and you should do this on a regular basis as part of your day to day business operations."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.4,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you only have a mobile number",
-							"body": "Mobile devices enable you to keep in contact with your customers, suppliers & employees at all times, but if you want to have a local presence our OneNet solution enables calls to landline numbers to be routed to your mobile phone"
+							"title": "You said that you are unsure if you will improve the utilisation of customer feedback to make business improvements",
+							"body": "With fierce competition, it's important to keep your service as relevant as possible. Without understanding and acting on customer feedback it is easy for customers to go to competitors that can meet their needs."
 						}
 
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.4,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that you only have a landline number",
-							"body": "Withour a mobile device you are potentially missing out on new business while you are out and about. With our One Net service you can easily pick up calls to your fixed number on your mobile device"
+							"title": "You said that you are unlikely to improve the utilisation of customer feedback to make business improvements",
+							"body": "Customers needs and their buying behaviour is changing rapidly. Businesses that cannot offer the service that customers expect run the risk of becoming uncompetitiveand losing business to companies that are more tuned in to the needs of their customers. 55% of the most ready businesses believe unlocking the potential of their staff is critical."
 						}
-
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.1,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said you do not have conference call facilities",
-							"body": "Evidence shows..."
-						}
-
-					},
-					{
-						"reporting_val": "6",
-						"weight": 0.9,
-						"associated_text": {
-							"title": "You said you do not face any issues when making calls",
-							"body": "Consumers are becoming less loyal, if they can't get in touch with you easily, in the ways they want, it will be harder to compete"
+							"title": "You said that you have no plans to improve the utilisation of customer feedback to make business improvements",
+							"body": "Customers needs and their buying behaviour is changing rapidly. Businesses that cannot offer the service that customers expect run the risk of becoming uncompetitiveand losing business to companies that are more tuned in to the needs of their customers. 55% of the most ready businesses believe unlocking the potential of their staff is critical."
 						}
 
 					}
@@ -107,75 +97,48 @@
 			},
 			{
 				"id": 13,
-				"sectorId": "sector_1",
+				"sectorId": "sector_2",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said I am often in meetings and unable to take calls",
-							"body": "Evidence shows being unable to take calls..."
+							"title": "You said that you completely agree that you consistently demonstrate a strong commitment to allowing your employees to work more efficiently and flexibly",
+							"body": "This is good news - employees are your most important asset and they need to be able to support the needs of your business and your customers. Giving them the right tools and support helps them to feel motivated and more easily able to keep your customers happy. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that I miss calls outside of working hours",
-							"body": "Evidence shows missed calls..."
+							"title": "You said that you partially agree you consistently demonstrate a strong commitment to allowing your employees to work more efficiently and flexibly",
+							"body": "Successful businesses give their employees access to the right tools and information to do their jobs effectively. This may be from simple things like a mobile device to be contactable wherever they are, to access to customer data so they can respond to customer queries quickly and effectively. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years. "
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.1,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that calls are not routed to the correct teams",
-							"body": "Evidence shows calls not being routed..."
+							"title": "You said that you neither agree nor disagree that you consistently demonstrate a strong commitment to allowing your employees to work more efficiently and flexibly",
+							"body": "Having employees that feel supported and valued is critical to ensuring they provide a high quality of service to your customers. Empowering employees to make appropriate decisions helps improve the speed and quality of interactions with customers, improving your overall service. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years"
 						}
 
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.4,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that outside you only have a mobile number",
-							"body": "Evidence shows that only having a mobile number..."
+							"title": "You said that you mainly disagree that you consistently demonstrate a strong commitment to allowing your employees to work more efficiently and flexibly",
+							"body": "Having employees that feel supported and valued is critical to ensuring they provide a high quality of service to your customers. Empowering employees to make appropriate decisions helps improve the speed and quality of interactions with customers, improving your overall service. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years"
 						}
 
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.4,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said that I only have a fixed number",
-							"body": "Evidence shows only having a fixed number..."
-						}
-
-					},
-					{
-						"reporting_val": "6",
-						"weight": 0.9,
-						"associated_text": {
-							"title": "You said that you do not have voicemail. efbwui fuiwbe fewi ewngoi",
-							"body": "Evidence shows not having a voicemail..."
-						}
-
-					},
-					{
-						"reporting_val": "7",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that I do not have a receptionist",
-							"body": "Evidence shows not having a receptionist..."
-						}
-
-					},
-					{
-						"reporting_val": "8",
-						"weight": 0.9,
-						"associated_text": {
-							"title": "You said that you have no issues receiving calls",
-							"body": "Evidence shows..."
+							"title": "You said that you strongly disagree that you consistently demonstrate a strong commitment to allowing your employees to work more efficiently and flexibly",
+							"body": "Having employees that feel supported and valued is critical to ensuring they provide a high quality of service to your customers. Empowering employees to make appropriate decisions helps improve the speed and quality of interactions with customers, improving your overall service. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years"
 						}
 
 					}
@@ -183,84 +146,48 @@
 			},
 			{
 				"id": 14,
-				"sectorId": "sector_1",
+				"sectorId": "sector_2",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you do Broadcast/outdoor advertising, e.g. TV, radio, billboards",
-							"body": "Evidence shows Broadcast/outdoor advertising, e.g. TV, radio, billboards..."
+							"title": "You said that you are very likely to make changes to allow your employees to work more efficiently and/or flexibly",
+							"body": "This is the right approach. Successful businesses have motivated, empowered employees that are committed to providing excellent service and making the right decisions for the business and their customers."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you do Print advertising, e.g. press, business directories",
-							"body": "Evidence shows Print advertising, e.g. press, business directories..."
+							"title": "You said that you are quite likely to make changes to allow your employees to work more efficiently and/or flexibly",
+							"body": "You should consider making this a priority. Successful businesses have motivated, empowered employees that are committed to providing excellent service and making the right decisions for the business and their customers."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.1,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you do Public Relations",
-							"body": "Evidence shows Public Relations..."
+							"title": "You said that you are unsure if you will make changes to allow your employees to work more efficiently and/or flexibly",
+							"body": "Simple improvements to give your employees the ability to collaborate and work more effectively will help improve the levels of service you offer your customers, as well as being more llikely to retain staff. In order to keep up with your competitors you should consider prioritising this. "
 						}
 
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.1,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that you do Events and experiences",
-							"body": "Evidence shows Events and experiences..."
+							"title": "You said that you are unlikely to make changes to allow your employees to work more efficiently and/or flexibly",
+							"body": "Simple improvements to give your employees the ability to collaborate and work more effectively will help improve the levels of service you offer your customers, as well as being more llikely to retain staff. In order to keep up with your competitors you should consider prioritising this. "
 						}
 
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.1,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said that you do Direct marketing e.g. email, direct mail",
-							"body": "Evidence shows Direct marketing e.g. email, direct mail..."
-						}
-
-					},
-					{
-						"reporting_val": "6",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that you do Digital banner advertising",
-							"body": "Evidence shows Digital banner advertising..."
-						}
-
-					},
-					{
-						"reporting_val": "7",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that you do Search marketing and SEO",
-							"body": "Evidence shows Search marketing and SEO..."
-						}
-
-					},
-					{
-						"reporting_val": "8",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that you do Social media, e.g. Facebook",
-							"body": "Evidence shows Social media, e.g. Facebook..."
-						}
-
-					},
-					{
-						"reporting_val": "9",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that you do not do marketing activities",
-							"body": "Evidence shows marketing activities can..."
+							"title": "You said that you have no plans to make changes to allow your employees to work more efficiently and/or flexibly",
+							"body": "Simple improvements to give your employees the ability to collaborate and work more effectively will help improve the levels of service you offer your customers, as well as being more llikely to retain staff. In order to keep up with your competitors you should consider prioritising this. "
 						}
 
 					}
@@ -268,318 +195,376 @@
 			},
 			{
 				"id": 15,
-				"sectorId": "sector_3",
+				"sectorId": "sector_1",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said your website needs to be improved",
-							"body": "Evidence shows out of date websites..."
+							"title": "You said that you completely agree that you freely embrace new technology where it can add value",
+							"body": "That's good because a best practice outcome for businesses that utilise new technology is the creation of value via increased productivity, increased collaboration, increased communication, and increased customer experience. 89% of businesses believe IT and communications enables rapid response to business changes."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that your website  does not receive enough traffic",
-							"body": "Evidence shows not having enough traffic..."
+							"title": "You said that you partially agree you freely embrace new technology where it can add value",
+							"body": "Sucessful business use the latest technology to increase the productivity and efficiency of a business. Technology provides a platform to exchange ideas, save work, and submit deliverables to increase the collaboration among the corporate staff that will lead to better project success. 89% of businesses believe IT and communications enable rapid response to changing business needs."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.1,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that your  website does not generate enough sales",
-							"body": "Evidence shows not generating enough sales..."
+							"title": "You said that you neither agree nor disagree that you freely embrace new technology where it can add value",
+							"body": "Technology solutions are developing rapidly to provide simple, cost effective ways of increasing efficiency and delivering better service to customers. 89% of businesses believe that IT and communications help provide rapid response to changing business needs. Find out how Vodafone can help enhance your business in a simple, cost effective way."
 						}
 
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.9,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that your website generates more than half of my business opportunities",
-							"body": "Evidence shows a good website..."
-						}
-
-					}
-				]
-			},
-			{
-				"id": 16,
-				"sectorId": "sector_2",
-				"answer_options": [
-					{
-						"reporting_val": "1",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that you do do not manage employee attendance",
-							"body": "Evidence shows not manging employee attendance..."
-						}
-					},
-					{
-						"reporting_val": "2",
-						"weight": 0.20,
-						"associated_text": {
-							"title": "You said that you have a Timesheets / Register",
-							"body": "Evidence shows timesheets..."
-						}
-					},
-					{
-						"reporting_val": "3",
-						"weight": 0.4,
-						"associated_text": {
-							"title": "You said that you manage employee attendance with Access control",
-							"body": "Evidence shows Access control..."
-						}
-
-					},
-					{
-						"reporting_val": "4",
-						"weight": 0.9,
-						"associated_text": {
-							"title": "You said that you manage employee attendance with an automated system",
-							"body": "Evidence shows automated systems..."
-						}
-
-					}
-				]
-			},
-			{
-				"id": 17,
-				"sectorId": "sector_2",
-				"answer_options": [
-					{
-						"reporting_val": "1",
-						"weight": 0.1,
-						"associated_text": {
-							"title": "You said that you do not manage employee spend",
-							"body": "Evidence shows not managing employee spend..."
-						}
-					},
-					{
-						"reporting_val": "2",
-						"weight": 0.20,
-						"associated_text": {
-							"title": "You said you are using monthly invoices at the end of the month to manage employee spend",
-							"body": "Evidence shows employee spend..."
-						}
-					},
-					{
-						"reporting_val": "3",
-						"weight": 0.4,
-						"associated_text": {
-							"title": "You said each employee receives a monthly limit to manage employee spend",
-							"body": "Evidence shows employee limits..."
-						}
-
-					},
-					{
-						"reporting_val": "4",
-						"weight": 0.4,
-						"associated_text": {
-							"title": "You said to manage employee spend you have signed agreements with the employee",
-							"body": "Evidence shows signed agreements..."
+							"title": "You said that you mainly disagree that you freely embrace new technology where it can add value",
+							"body": "Technology solutions are developing rapidly to provide simple, cost effective ways of increasing efficiency and delivering better service to customers. 89% of businesses believe that IT and communications help provide rapid response to changing business needs. Find out how Vodafone can help enhance your business in a simple, cost effective way."
 						}
 
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.9,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said that you manage employee spend proactively through the month",
-							"body": "Evidence shows manging spend proactively..."
+							"title": "You said that you strongly disagree that you freely embrace new technology where it can add value",
+							"body": "Technology solutions are developing rapidly to provide simple, cost effective ways of increasing efficiency and delivering better service to customers. 89% of businesses believe that IT and communications help provide rapid response to changing business needs. Find out how Vodafone can help enhance your business in a simple, cost effective way."
+						}
+					}					
+				]
+			},
+			{
+				"id": 16,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to invest in new technology to grow your business",
+							"body": "Successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers - investing in appropriate technology can be a cost effective way of moving your business forward."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to invest in new technology to grow your business",
+							"body": "Successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers - investing in appropriate technology can be a cost effective way of moving your business forward."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will invest in new technology to grow your business",
+							"body": "Technology solutions are increasingly easy and cost effective to deploy. The most successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers."
 						}
 
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to invest in new technology to grow your business",
+							"body": "Technology solutions are increasingly easy and cost effective to deploy. The most successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in new technology to grow your business",
+							"body": "Technology solutions are increasingly easy and cost effective to deploy. The most successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers."
+						}
+					}					
+				]
+			},
+			{
+				"id": 17,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that the management of security and risk is a high priority",
+							"body": "With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree the management of security and risk is a high priority",
+							"body": "With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. "
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that the management of security and risk is a high priority",
+							"body": "With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. Failing to do so risks regulatory breaches and losing customer confidence."
+						}
+
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that the management of security and risk is a high priority",
+							"body": "With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. Failing to do so risks regulatory breaches and losing customer confidence."
+						}
+
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that the management of security and risk is a high priority",
+							"body": "With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. Failing to do so risks regulatory breaches and losing customer confidence."
+						}
 					}
 				]
 			},
 			{
 				"id": 19,
-				"sectorId": "sector_2",
+				"sectorId": "sector_1",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you do not have adequate tools to manage payroll",
-							"body": "Evidence shows managing payroll..."
+							"title": "You said that you are very likely to invest in security capabilities and risk mitigation",
+							"body": "That's good news. The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow. "
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.65,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you have Installed Software to manage payroll",
-							"body": "Evidence shows Installed Software ..."
+							"title": "You said that you are quite likely to invest in security capabilities and risk mitigation",
+							"body": "The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.9,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you have Cloud software to manage payroll",
-							"body": "Evidence shows Cloud software..."
+							"title": "You said that you are unsure if you will invest in security capabilities and risk mitigation",
+							"body": "The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
 						}
-
-					}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to invest in security capabilities and risk mitigation",
+							"body": "The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in security capabilities and risk mitigation",
+							"body": "The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					}									
 				]
 			},
 			{
 				"id": 20,
-				"sectorId": "sector_2",
+				"sectorId": "sector_1",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.15,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that to communicate internally within your business and your staff you have Telephonic communication",
-							"body": "Evidence shows Telephonic communication..."
+							"title": "You said that you completely agree that your current IT and communications solutions support your business needs",
+							"body": "You have obviously been investing appropriately in the technology solutions that support your business. Successful businesses are always reviewing ways they can improve the efficiency of their business or deliver better service to their customers. 88% of businesses believe continuous innovation of business models and processes is critical."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.15,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that to communicate internally within your business and your staff you have Face-to-face communication",
-							"body": "Evidence shows Face-to-face communication..."
+							"title": "You said that you partially agree that your current IT and communications solutions support your business needs",
+							"body": "The most successful businesses are constantly looking at ways they can improve the use of IT and communications solutions to support their business. Simple, cost effective solutions can make a big impact to your business efficiency and the service you deliver your customers. 88% of businesses believe continuous improvement of business models and processes is critical."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.15,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that to communicate internally within your business and your staff you have Email / Text communication",
-							"body": "Evidence shows Email / Text communication..."
+							"title": "You said that you neither agree nor disagree that your current IT and communications solutions support your business needs",
+							"body": "Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain compeititive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical"
 						}
 
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.15,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that to communicate internally within your business and your staff you have Shared documentation",
-							"body": "Evidence shows Shared documentation..."
+							"title": "You said that you mainly disagree that your current IT and communications solutions support your business needs",
+							"body": "Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain compeititive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical"
 						}
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.15,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said that to communicate internally within your business and your staff you have Video conferencing",
-							"body": "Evidence shows Video conferencing..."
+							"title": "You said that you strongly disagree that your current IT and communications solutions support your business needs",
+							"body": "Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain compeititive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical"
 						}
 					}
 				]
 			},
-
 			{
 				"id": 21,
 				"sectorId": "sector_1",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.9,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you are able to track your vehicle, manage routes, review reports and logs as well as recover your vehicle if it is stolen",
-							"body": "Evidence shows vehicle tracking..."
+							"title": "You said that you are very likely to invest in IT and communications solutions to support your business needs",
+							"body": "This is the right approach. The most successful businesses are constantly investing in new technology to improve business efficiency and improve service levels."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you are able to track your vehicle, manage routes, review reports and logs as well as recover your vehicle if it is stolen",
-							"body": "Evidence shows vehicle tracking..."
+							"title": "You said that you are quite likely to invest in IT and communications solutions to support your business needs",
+							"body": "You should consider this decision. Successful businesses use technology to improve business efficiency and deliver better service to customers. With rapid changes in the way your customers want to communicate and transact with you, it's important to remain competitive."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.4,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you are partially able to track your vehicle, manage routes, review reports and logs as well as recover your vehicle if it is stolen",
-							"body": "Evidence shows vehicle tracking..."
+							"title": "You said that you are unsure if you will invest in IT and communications solutions to support your business needs",
+							"body": "You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive. The most ready businesses are three times more likely to believe that cloud-based or managed services are very important for their business."
 						}
-
-					}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to invest in IT and communications solutions to support your business needs",
+							"body": "You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive. The most ready businesses are three times more likely to believe that cloud-based or managed services are very important for their business."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to iinvest in IT and communications solutions to support your business needs",
+							"body": "You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive. The most ready businesses are three times more likely to believe that cloud-based or managed services are very important for their business."
+						}
+					}									
 				]
 			},
-			
 			{
 				"id": 22,
 				"sectorId": "sector_1",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you do not have network security",
-							"body": "Evidence shows network security..."
+							"title": "You said that you completely agree that your business fully utilises cloud-based and/or externally managed software/applications",
+							"body": "This is the right approach. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.25,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you use spam filters",
-							"body": "Evidence shows spam filters..."
+							"title": "You said that you partially agree that your business fully utilises cloud-based and/or externally managed software/applications",
+							"body": "Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider other areas that can be improved. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.25,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you have Website monitoring",
-							"body": "Evidence shows Website monitoring..."
+							"title": "You said that you neither agree nor disagree that your business fully utilises cloud-based and/or externally managed software/applications",
+							"body": "Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider how cloud-based solutions can help improve your business operations to be more competitive. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
 						}
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.25,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that you have Device management",
-							"body": "Evidence shows Device management..."
+							"title": "You said that you mainly disagree that your business fully utilises cloud-based and/or externally managed software/applications",
+							"body": "Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider how cloud-based solutions can help improve your business operations to be more competitive. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
 						}
-					}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that your business fully utilises cloud-based and/or externally managed software/applications",
+							"body": "Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider how cloud-based solutions can help improve your business operations to be more competitive. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
+						}
+					}					
 				]
 			},
 			{
 				"id": 23,
-				"sectorId": "sector_3",
+				"sectorId": "sector_1",
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you have a Physical diary for appointments",
-							"body": "Evidence shows physical diaries..."
+							"title": "You said that you are very likely to invest in cloud-based and/or externally managed software/applications",
+							"body": "This is the right approach. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.4,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you are using email calendar",
-							"body": "Evidence shows email calendar..."
+							"title": "You said that you are quite likely to invest in cloud-based and/or externally managed software/applications",
+							"body": "You should make this a priority. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.4,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you have Appointment booking software",
-							"body": "Evidence shows Appointment booking software..."
+							"title": "You said that you are unsure if you will invest in cloud-based and/or externally managed software/applications",
+							"body": "You should make this a priority. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs."
 						}
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.1,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that I do not effectively manage appointments",
-							"body": "Evidence shows not managing appointments..."
+							"title": "You said that you are unlikely to invest in cloud-based and/or externally managed software/applications",
+							"body": "You should re-consider this decision. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. Failing to do so puts you at risk from falling behind the competition."
 						}
-					}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in cloud-based and/or externally managed software/applications",
+							"body": "You should re-consider this decision. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. Failing to do so puts you at risk from falling behind the competition."
+						}
+					}					
 				]
 			},
 			{
@@ -588,58 +573,42 @@
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.1,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said you do not store business information",
-							"body": "Evidence shows storing business information..."
+							"title": "You said that you completely agree that you're confident you have the best value technology platforms and structures in place",
+							"body": "This is the right approach. Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you manage the storage of all your necessary business information with Physical storage",
-							"body": "Evidence shows Physical storage ..."
+							"title": "You said that you partially agree you're confident you have the best value technology platforms and structures in place",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration. You should review your processes and tools to see where improvements could be made."
 						}
 					},
 					{
 						"reporting_val": "3",
-						"weight": 0.15,
+						"weight": 0.5,
 						"associated_text": {
-							"title": "You said that you manage the storage of all your necessary business information with External hard drives",
-							"body": "Evidence shows External hard drives..."
+							"title": "You said that you neither agree nor disagree that you're confident you have the best value technology platforms and structures in place",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration. You should review your processes and tools to see where improvements could be made."
 						}
 					},
 					{
 						"reporting_val": "4",
-						"weight": 0.05,
+						"weight": 0.3,
 						"associated_text": {
-							"title": "You said that you manage the storage of all your necessary business information on your computer",
-							"body": "Evidence shows storing on your computer..."
+							"title": "You said that you mainly disagree that you're confident you have the best value technology platforms and structures in place",
+							"body": " Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration, ultimately delivery a better customer experience. With technology changing rapidly you should look at how your processes or tools could be improved."
 						}
 					},
 					{
 						"reporting_val": "5",
-						"weight": 0.25,
+						"weight": 0.2,
 						"associated_text": {
-							"title": "You said you manage the storage of all your necessary business information on Disaster recovery sites",
-							"body": "Evidence shows Disaster recovery sites..."
-						}
-					},
-					{
-						"reporting_val": "6",
-						"weight": 0.15,
-						"associated_text": {
-							"title": "You said that you manage the storage of all your necessary business information on a server",
-							"body": "Evidence shows on a server..."
-						}
-					},
-					{
-						"reporting_val": "7",
-						"weight": 0.20,
-						"associated_text": {
-							"title": "You said you manage the storage of all your necessary business information on Cloud storage",
-							"body": "Evidence shows Cloud storage..."
+							"title": "You said that you strongly disagree you're confident you have the best value technology platforms and structures in place",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration, ultimately delivery a better customer experience. With technology changing rapidly you should look at how your processes or tools could be improved."
 						}
 					}
 				]
@@ -650,20 +619,44 @@
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.9,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that  you run effective meetings irrespective of your location",
-							"body": "Evidence shows effective meetings..."
+							"title": "You said that you are very likely to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology",
+							"body": "That's good news. Successful businesses understand that making communications tools work together helps to improve internal collaboration, speed up decision making and improve customer experience."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you do not run effective meetings irrespective of your location",
-							"body": "Evidence shows effective meetings..."
+							"title": "You said that you are quite likely to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology",
+							"body": "You should consider making this a priority. Successful businesses understand that making communications tools work together helps to improve internal collaboration, speed up decision making and improve customer experience."
 						}
-					}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology",
+							"body": "You should consider making this a priority. Successful businesses understand that making communications tools work together helps to improve internal collaboration, speed up decision making and improve customer experience."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology",
+							"body": "Successful businesses understand that making communications tools work together helps to improve internal collaboration, speed up decision making and improve customer experience. Not reviewing your current tools and processes leaves you at risk of becoming uncompetitive."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology",
+							"body": "Successful businesses understand that making communications tools work together helps to improve internal collaboration, speed up decision making and improve customer experience. Not reviewing your current tools and processes leaves you at risk of becoming uncompetitive."
+						}
+					}													
 				]
 			},
 			{
@@ -672,20 +665,44 @@
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.9,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you have access to your emails and calendar on the go",
-							"body": "Evidence shows access..."
+							"title": "You said that you completely agree that you use the latest, integrated communications to support your business",
+							"body": "This is the right approach. The most successful businesses offer customers a broad range of channels for them to communicate and transact through. You should keep reviewing this, as customer behaviour is developing rapidly. 94% of businesses believe multi-channel engagement with customers is a priority."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said that you do not have access to your emails and calendar on the go",
-							"body": "Evidence shows access..."
+							"title": "You said that you partially agree that you use the latest, integrated communications to support your business",
+							"body": "Customers are much more demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
 						}
-					}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that you use the latest, integrated communications to support your business",
+							"body": "Customers are much more demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that you use the latest, integrated communications to support your business",
+							"body": "Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key"
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that you use the latest, integrated communications to support your business",
+							"body": "Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key"
+						}
+					}					
 				]
 			},
 			{
@@ -694,18 +711,1560 @@
 				"answer_options": [
 					{
 						"reporting_val": "1",
-						"weight": 0.9,
+						"weight": 0.8,
 						"associated_text": {
-							"title": "You said that you general receive high volume of e-mail spam and unsolicited e-mail",
-							"body": "Evidence shows unsolicited e-mail..."
+							"title": "You said that you completely agree that you use the latest, integrated communications for making and receiving calls, sending and receiving emails and managing appointments and meetings",
+							"body": "This is the right approach. The most successful businesses offer customers a broad range of channels for them to communicate and transact through. You should keep reviewing this, as customer behaviour is developing rapidly. 94% of businesses believe multi-channel engagement with customers is a priority."
 						}
 					},
 					{
 						"reporting_val": "2",
-						"weight": 0.1,
+						"weight": 0.6,
 						"associated_text": {
-							"title": "You said you do not receive high volume of e-mail spam and unsolicited e-mail",
-							"body": "Evidence shows unsolicited e-mail..."
+							"title": "You said that you partially agree that you use the latest, integrated communications for making and receiving calls, sending and receiving emails and managing appointments and meetings",
+							"body": "Customers are much more demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that you use the latest, integrated communications for making and receiving calls, sending and receiving emails and managing appointments and meetings",
+							"body": "Customers are much more demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that you use the latest, integrated communications for making and receiving calls, sending and receiving emails and managing appointments and meetings",
+							"body": "Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key"
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that you use the latest, integrated communications for making and receiving calls, sending and receiving emails and managing appointments and meetings",
+							"body": "Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key"
+						}
+					}													
+				]
+			},
+			{
+				"id": 223,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to invest in the latest, integrated communications",
+							"body": "You're right to prioritise investment in this area. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business. The most ready businesses are twice as likely to believe in more interactive, personal communication with customers."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to invest in the latest, integrated communications",
+							"body": "Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will invest in the latest, integrated communications",
+							"body": "This is good news, Younger generations are entering the workforce with very different expectations of how they can communicate and share information"
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to invest in the latest, integrated communications",
+							"body": "You should also consider mobile working practices, pressures on organisations to reduce their carbon footprint are encouraging them to re-evaluate working practices"
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in the latest, integrated communications",
+							"body": "This is good news. Advances in consumer technology and the rise of social networking are changing people’s expectations of how, when and where they can interact and share information so it is important to have a range of connectivity options"
+						}
+					}													
+				]
+			},
+			{
+				"id": 226,
+				"sectorId": "sector_3",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that you enable customers to contact you through all the channels they want to",
+							"body": "This is the right approach. The most successful businesses offer customers a broad range of channels for them to communicate and transact through. You should keep reviewing this, as customer behaviour is developing rapidly. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree  that you enable customers to contact you through all the channels they want to",
+							"body": "Customers are becoming increasingly demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree  that you enable customers to contact you through all the channels they want to",
+							"body": "Customers are becoming increasingly demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that you enable customers to contact you through all the channels they want to",
+							"body": "Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that you enable customers to contact you through all the channels they want to",
+							"body": "Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key."
+						}
+					}													
+				]
+			},
+			{
+				"id": 233,
+				"sectorId": "sector_3",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to improve the ways customers can engage with you",
+							"body": "It's important to prioritise this. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business. The most ready businesses are twice as likely to believe in more interactive, personal communication with customers."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to improve the ways customers can engage with you",
+							"body": "Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will improve the ways customers can engage with you",
+							"body": "Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to improve the ways customers can engage with you",
+							"body": "You should reconsider this decision. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to improve the ways customers can engage with you",
+							"body": "You should reconsider this decision. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business."
+						}
+					}													
+				]
+			},
+			{
+				"id": 236,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that your business supports effective internal collaboration",
+							"body": "This is the right approach. Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree your business supports effective internal collaboration",
+							"body": "This is the right approach. Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that your business supports effective internal collaboration",
+							"body": "Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service. You should review the processes and tools you use to see how you could improve internal collaboration."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that your business supports effective internal collaboration",
+							"body": "Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service. You should review the processes and tools you use to see how you could improve internal collaboration."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree your business supports effective internal collaboration",
+							"body": "Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service. You should review the processes and tools you use to see how you could improve internal collaboration."
+						}
+					}													
+				]
+			},
+			{
+				"id": 239,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to improve the level of internal collaboration",
+							"body": "It's a good decision to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to improve the level of internal collaboration",
+							"body": "It is important to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will improve the level of internal collaboration",
+							"body": "It is important to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to improve the level of internal collaboration",
+							"body": "It is important to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to improve the level of internal collaboration",
+							"body": "You should consider prioritising this area. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					}
+				]
+			},
+			{
+				"id": 242,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that you offer your employees the ability to work productively from anywhere",
+							"body": "This is the right approach. The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree you offer your employees the ability to work productively from anywhere",
+							"body": "The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require. You should consider if any other employees could be given the tools to be more productive when working remotely."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that you offer your employees the ability to work productively from anywhere",
+							"body": "The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require. You should consider if any employees could be given the tools to be more productive when working remotely."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that you offer your employees the ability to work productively from anywhere",
+							"body": "The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require. You should consider if any employees could be given the tools to be more productive when working remotely."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree you offer your employees the ability to work productively from anywhere",
+							"body": "The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require. You should consider if any employees could be given the tools to be more productive when working remotely."
+						}
+					}																		
+				]
+			},			
+			{
+				"id": 245,
+				"sectorId": "sector_2",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to improve the capability for mobile, remote and flexible working for your employees",
+							"body": "This is the right approach. The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to improve the capability for mobile, remote and flexible working for your employees",
+							"body": "This is important. The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will improve the capability for mobile, remote and flexible working for your employees",
+							"body": "This is important. The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to improve the capability for mobile, remote and flexible working for your employees",
+							"body": "You should re-consider this decision. The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to improve the capability for mobile, remote and flexible working for your employees",
+							"body": "You should re-consider this decision. The most successful businesses ensure their employees have the right tools to work productively no matter where they are. This helps keep the business agile as well as providing the flexibility employees require."
+						}
+					}																		
+				]
+			},
+			{
+				"id": 248,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that your business fully utilises technology that allows different parts of the organisation to share data",
+							"body": "This is the right approach. Successful businesses recognise that enabling simple data sharing across the organisation helps improve the speed and quality of decision making, reduce time to market of new products and also improve the customer experience."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree that your business fully utilises technology that allows different parts of the organisation to share data",
+							"body": "Successful businesses recognise that enabling simple data sharing across the organisation helps improve the speed and quality of decision making, reduce time to market of new products and also improve the customer experience. You should consider how improvements can be made to other parts of your business."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that your business fully utilises technology that allows different parts of the organisation to share data",
+							"body": "You should consider prioritising this. Successful businesses recognise that enabling simple data sharing across the organisation helps improve the speed and quality of decision making, reduce time to market of new products and also improve the customer experience."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that your business fully utilises technology that allows different parts of the organisation to share data",
+							"body": "You should consider prioritising this. Successful businesses recognise that enabling simple data sharing across the organisation helps improve the speed and quality of decision making, reduce time to market of new products and also improve the customer experience."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that your business fully utilises technology that allows different parts of the organisation to share data",
+							"body": "You should consider prioritising this. Successful businesses recognise that enabling simple data sharing across the organisation helps improve the speed and quality of decision making, reduce time to market of new products and also improve the customer experience."
+						}
+					}																		
+				]
+			},
+			{
+				"id": 251,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to invest in technology that improves data sharing",
+							"body": "This is the right decision, continuing to improve how your business can access and share data is important in keeping your business agile and competitive."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to invest in technology that improves data sharing",
+							"body": "This is an important decision. Improving how your business can access and share data helps your business to make faster, better decision and deliver a high quality customer experience. Successful business recognise that this helps them remain competitive."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will invest in technology that improves data sharing",
+							"body": "This is an important decision. Improving how your business can access and share data helps your business to make faster, better decision and deliver a high quality customer experience. Successful business recognise that this helps them remain competitive."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to invest in technology that improves data sharing",
+							"body": "You should consider the priority of this. Not allowing easy access to your data can lead to slow, poor decision making and a disjointed customer experience."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in technology that improves data sharing",
+							"body": "You should consider the priority of this. Not allowing easy access to your data can lead to slow, poor decision making and a disjointed customer experience."
+						}
+					}																		
+				]
+			},
+			{
+				"id": 268,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that your network and technology infrastructure allows you to continue operating during unforseen events, such as natural disasters or geopolitical instability.",
+							"body": "You have obviously been investing appropriately in the technology solutions that support your business. Successful businesses are always reviewing ways they can improve the efficiency of their business or deliver better service to their customers. 88% of businesses believe continuous innovation of business models and processes is critical."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree that your network and technology infrastructure allows you to continue operating during unforseen events, such as natural disasters or geopolitical instability.",
+							"body": "The most successful businesses are constantly looking at ways they can improve the use of IT and communications solutions to support their business. Simple, cost effective solutions can make a big impact to your business efficiency and the service you deliver your customers. 88% of businesses believe continuous improvement of business models and processes is critical."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree  that your network and technology infrastructure allows you to continue operating during unforseen events, such as natural disasters or geopolitical instability.",
+							"body": "Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain competitive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that your network and technology infrastructure allows you to continue operating during unforseen events, such as natural disasters or geopolitical instability.",
+							"body": "Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain competitive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that your network and technology infrastructure allows you to continue operating during unforseen events, such as natural disasters or geopolitical instability.",
+							"body": "Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain competitive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical."
+						}
+					}
+				]
+			},
+			{
+				"id": 305,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to invest in new business infrastructure and continuity solutions to improve operational stability during unforeseen events.",
+							"body": "This is the right approach. The most successful businesses plan for worst case scenarios and are constantly investing in new technology to safeguard business continuity. 89% of businesses believe IT and communications enables rapid response to business changes."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to invest in new business infrastructure and continuity solutions to improve operational stability during unforeseen events.",
+							"body": "You should ensure this is a priority for you organisation. The most successful businesses plan for worst case scenarios and are constantly investing in new technology to safeguard business continuity. 89% of businesses believe IT and communications enables rapid response to business changes."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will invest in new business infrastructure and continuity solutions to improve operational stability during unforeseen events.",
+							"body": "You should consider this decision. The most successful businesses plan for worst case scenarios and are constantly investing in new technology to safeguard business continuity. 89% of businesses believe IT and communications enables rapid response to business changes."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to invest in new business infrastructure and continuity solutions to improve operational stability during unforeseen events.",
+							"body": "You should consider this decision. The most successful businesses plan for worst case scenarios and are constantly investing in new technology to safeguard business continuity. 89% of businesses believe IT and communications enables rapid response to business changes."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in new business infrastructure and continuity solutions to improve operational stability during unforeseen events.",
+							"body": "You should consider this decision. The most successful businesses plan for worst case scenarios and are constantly investing in new technology to safeguard business continuity. 89% of businesses believe IT and communications enables rapid response to business changes."
+						}
+					}
+				]
+			},
+			{
+				"id": 271,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that your current infrastructure, systems and processes allow you to set up quickly in new regions or markets.",
+							"body": "This suggests you are ready to take on the challenges of tomorrow. Ensuring you have a scalable infrastructure is essential to an agile organisation when expanding to a new market or geography."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree that your current infrastructure, systems and processes allow you to set up quickly in new regions or markets.",
+							"body": "The most successful businesses benefit from scalable infrastructures, systems and process that allow them to expand their operations into new markets and geographies."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that your current infrastructure, systems and processes allow you to set up quickly in new regions or markets.",
+							"body": "The most successful businesses benefit from scalable infrastructures, systems and process that allow them to expand their operations into new markets and geographies. You should consider prioritising this topic to remain competitive."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that your current infrastructure, systems and processes allow you to set up quickly in new regions or markets.",
+							"body": "The most successful businesses benefit from scalable infrastructures, systems and process that allow them to expand their operations into new markets and geographies. You should consider prioritising this topic to remain competitive."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree that your current infrastructure, systems and processes allow you to set up quickly in new regions or markets.",
+							"body": "The most successful businesses benefit from scalable infrastructures, systems and process that allow them to expand their operations into new markets and geographies. You should  prioritise this topic to remain competitive."
+						}
+					}
+				]
+			},
+			{
+				"id": 308,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you are very likely to invest in new infrastructure to support growth in specific new market markets or that in general allows you to set up more quickly in new regions.",
+							"body": "Clearly your infrastructure is a high priority for your planning in the year ahead. This will help drive scalability and growth while maintaining your competitive advantage."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you are quite likely to  invest in new infrastructure to support growth in specific new market markets or that in general allows you to set up more quickly in new regions.",
+							"body": "Your business infrastructure needs to support your growth ambitions. Investment in this area is key to your success in scaling to new markets and regions."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you are unsure if you will invest in new infrastructure to support growth in specific new market markets or that in general allows you to set up more quickly in new regions.",
+							"body": "Your business infrastructure needs to support your growth ambitions - investment in this area is key to your success in scaling new markets and regions."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you are unlikely to  invest in new infrastructure to support growth in specific new market markets or that in general allows you to set up more quickly in new regions.",
+							"body": "You may need to reconsider your plans based on this answer. Your business infrastructure needs to support your growth ambitions - investment in this area is key to your success in scaling to new markets and regions."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you have no plans to invest in new infrastructure to support growth in specific new market markets or that in general allows you to set up more quickly in new regions.",
+							"body": "You may need to reconsider your plans based on this answer. Your business infrastructure needs to support your growth ambitions - investment in this area is key to your success in scaling to new markets and regions."
+						}
+					}
+				]
+			},
+			{
+				"id": 274,
+				"sectorId": "sector_1",
+				"answer_options": [
+					{
+						"reporting_val": "1",
+						"weight": 0.8,
+						"associated_text": {
+							"title": "You said that you completely agree that you are confident you have the best value technology platforms and structures in place.",
+							"body": "This is the right approach. Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration."
+						}
+					},
+					{
+						"reporting_val": "2",
+						"weight": 0.6,
+						"associated_text": {
+							"title": "You said that you partially agree that you are confident you have the best value technology platforms and structures in place.",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration. You should review your processes and tools to see where improvements could be made."
+						}
+					},
+					{
+						"reporting_val": "3",
+						"weight": 0.5,
+						"associated_text": {
+							"title": "You said that you neither agree nor disagree that you are confident you have the best value technology platforms and structures in place.",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration. You should review your processes and tools to see where improvements could be made."
+						}
+					},
+					{
+						"reporting_val": "4",
+						"weight": 0.3,
+						"associated_text": {
+							"title": "You said that you mainly disagree that you are confident you have the best value technology platforms and structures in place.",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration, ultimately delivery a better customer experience. With technology changing rapidly you should look at how your processes or tools could be improved."
+						}
+					},
+					{
+						"reporting_val": "5",
+						"weight": 0.2,
+						"associated_text": {
+							"title": "You said that you strongly disagree you are confident you have the best value technology platforms and structures in place.",
+							"body": "Successful businesses recognise the importance of communications tools working together to provide a seamless experience for employees, enabling easy access to data and better collaboration, ultimately delivery a better customer experience. With technology changing rapidly you should look at how your processes or tools could be improved."
+						}
+					}
+				]
+			},
+			{
+				"id":311,
+				"sectorId":"sector_1",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology.",
+							"body":"This is the right approach. Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology.",
+							"body":"Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider other areas that can be improved. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology.",
+							"body":"Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider how cloud-based solutions can help improve your business operations to be more competitive. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology.",
+							"body":"Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider how cloud-based solutions can help improve your business operations to be more competitive. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to investigate more cost effective IT and communications solutions to support your business needs, such as cloud based technology.",
+							"body":"Successful businesses maximise the benefits of flexible, cost effective cloud based applications or managed services to be more agile and better meet customer needs. You should consider how cloud-based solutions can help improve your business operations to be more competitive. The most ready businesses are three times more likely to believe that cloud based or managed services are very important for their business."
+						}
+					}
+				]
+			},
+			{
+				"id":277,
+				"sectorId":"sector_1",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that reducing the number of suppliers you use, across services and countries, is a priority to ensure you remain agile and efficent.",
+							"body":"You have obviously been investing appropriately and efficiently in the technology solutions that support your business. Successful businesses are always reviewing ways they can improve the efficiency of their business or deliver better service to their customers. 88% of businesses believe continuous innovation of business models and processes is critical."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that reducing the number of suppliers you use, across services and countries, is a priority to ensure you remain agile and efficent.",
+							"body":"The most successful businesses are constantly looking at ways they can improve the use of IT and communications solutions to support their business. Simple, cost effective solutions can make a big impact to your business efficiency and the service you deliver your customers. 88% of businesses believe continuous improvement of business models and processes is critical."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that reducing the number of suppliers you use, across services and countries, is a priority to ensure you remain agile and efficent.",
+							"body":"Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain compeititive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical"
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that reducing the number of suppliers you use, across services and countries, is a priority to ensure you remain agile and efficent.",
+							"body":"Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain compeititive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical"
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree that reducing the number of suppliers you use, across services and countries, is a priority to ensure you remain agile and efficent.",
+							"body":"Successful businesses invest in technology solutions to improve their business efficiency or to deliver better service to customers. To remain compeititive you should consider how IT or communications solutions can support you. 88% of businesses believe continuous improvement of business models and processes is critical"
+						}
+					}
+				]
+			},
+			{
+				"id":314,
+				"sectorId":"sector_1",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to review and rationalise your technology systems and suppliers to help you become more agile and efficient.",
+							"body":"This is the best way of ensuring your supplier and technical infrastructure is optimised to give you the best returns and most efficient operating model."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to improve the utilisation of customer feedback to make business improvements",
+							"body":"This is the best way of ensuring your supplier and technical infrastructure is optimised to give you the best returns and most efficient operating model."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will improve the utilisation of customer feedback to make business improvements",
+							"body":"Successful businesses regularly review their supplier and technical infrastructure. Maintaining a streamlined operational model and reducing complexity in the organisation is key to driving efficiency and cost saving."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to improve the utilisation of customer feedback to make business improvements",
+							"body":"Successful businesses regularly review their supplier and technical infrastructure. Maintaining a streamlined operational model and reducing complexity in the organisation is key to driving efficiency and cost saving."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to improve the utilisation of customer feedback to make business improvements",
+							"body":"Successful businesses regularly review their supplier and technical infrastructure. Maintaining a streamlined operational model and reducing complexity in the organisation is key to driving efficiency and cost saving."
+						}
+					}
+				]
+			},
+			{
+				"id":280,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that enabling your employees to communicate and collaborate together effectively across borders and/or teams is a critical business priority.",
+							"body":"This is the right approach. Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that enabling your employees to communicate and collaborate together effectively across borders and/or teams is a critical business priority.",
+							"body":"This is the right approach. Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that enabling your employees to communicate and collaborate together effectively across borders and/or teams is a critical business priority.",
+							"body":"Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service. You should review the processes and tools you use to see how you could improve internal collaboration."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that enabling your employees to communicate and collaborate together effectively across borders and/or teams is a critical business priority.",
+							"body":"Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service. You should review the processes and tools you use to see how you could improve internal collaboration."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree that enabling your employees to communicate and collaborate together effectively across borders and/or teams is a critical business priority.",
+							"body":"Successful businesses understand that effective internal collaboration leads to faster and better decision making, improving business effectiveness and customer service. You should review the processes and tools you use to see how you could improve internal collaboration."
+						}
+					}
+				]
+			},
+			{
+				"id":317,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to invest in solutions to improve how your employees can communicate and collaborate together effectively.",
+							"body":"It's a good decision to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to invest in solutions to improve how your employees can communicate and collaborate together effectively.",
+							"body":"It is important to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will invest in solutions to improve how your employees can communicate and collaborate together effectively.",
+							"body":"It is important to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to invest in solutions to improve how your employees can communicate and collaborate together effectively.",
+							"body":"It is important to prioritise this. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to invest in solutions to improve how your employees can communicate and collaborate together effectively.",
+							"body":"You should consider prioritising this area. The most successful businesses understand the importance of effective internal collaboration in faster and better decision making, and delivering better customer service."
+						}
+					}
+				]
+			},
+			{
+				"id":283,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that you offer your employees the ability to work productively from anywhere.",
+							"body":"You are right to facilitate flexible working for your employees. A Ready Business is truly connected across it's places, its business assets, but most importantly across it's people."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree you offer your employees the ability to work productively from anywhere.",
+							"body":"A Ready Business is truly connected across it's places, its business assets, but most importantly across it's people. Increasingly, employees expect remote access and real time collaboration, with the choice to work flexibly when they want, where they want and with the tools of their choice."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that you offer your employees the ability to work productively from anywhere.",
+							"body":"A Ready Business is truly connected across it's places, its business assets, but most importantly across it's people. Increasingly, employees expect remote access and real time collaboration, with the choice to work flexibly when they want, where they want and with the tools of their choice."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that you offer your employees the ability to work productively from anywhere.",
+							"body":"A Ready Business is truly connected across it's places, its business assets, but most importantly across it's people. Increasingly, employees expect remote access and real time collaboration, with the choice to work flexibly when they want, where they want and with the tools of their choice."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree you offer your employees the ability to work productively from anywhere.",
+							"body":"A Ready Business is truly connected across it's places, its business assets, but most importantly across it's people. Increasingly, employees expect remote access and real time collaboration, with the choice to work flexibly when they want, where they want and with the tools of their choice."
+						}
+					}
+				]
+			},
+			{
+				"id":320,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to improve the capability for mobile, remote and flexible working amongst your employees.",
+							"body":"This is the right approach. Employees expect remote access and real time collaboration, with the choice to work flexibly - in return, employers can expect increased productivity and staff retention."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to improve the capability for mobile, remote and flexible working amongst your employees.",
+							"body":"This is important. Employees expect remote access and real time collaboration, with the choice to work flexibly - in return, employers can expect increased productivity and staff retention."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will improve the capability for mobile, remote and flexible working amongst your employees.",
+							"body":"This is important. Employees expect remote access and real time collaboration, with the choice to work flexibly - in return, employers can expect increased productivity and staff retention."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to improve the capability for mobile, remote and flexible working amongst your employees.",
+							"body":"You should re-consider this decision. Employees expect remote access and real time collaboration, with the choice to work flexibly - in return, employers can expect increased productivity and staff retention."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to improve the capability for mobile, remote and flexible working amongst your employees.",
+							"body":"You should re-consider this decision. Employees expect remote access and real time collaboration, with the choice to work flexibly - in return, employers can expect increased productivity and staff retention."
+						}
+					}
+				]
+			},
+			{
+				"id":286,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that you offer your employees the ability to work productively on their own prefered devices and applications in the workplace.",
+							"body":"This is good news - employees are your most important asset and they need to be able to support the needs of your business and your customers. Giving them the right tools and support helps them to feel motivated and more easily able to keep your customers happy. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that you offer your employees the ability to work productively on their own prefered devices and applications in the workplace.",
+							"body":"Successful businesses give their employees access to the right tools and information to do their jobs effectively. This may be from simple things like a mobile device to be contactable wherever they are, to access to customer data so they can respond to customer queries quickly and effectively. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that you offer your employees the ability to work productively on their own prefered devices and applications in the workplace.",
+							"body":"Having employees that feel supported and valued is critical to ensuring they provide a high quality of service to your customers. Empowering employees to make appropriate decisions helps improve the speed and quality of interactions with customers, improving your overall service. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years"
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that you offer your employees the ability to work productively on their own prefered devices and applications in the workplace.",
+							"body":"Having employees that feel supported and valued is critical to ensuring they provide a high quality of service to your customers. Empowering employees to make appropriate decisions helps improve the speed and quality of interactions with customers, improving your overall service. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years"
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree you offer your employees the ability to work productively on their own prefered devices and applications in the workplace.",
+							"body":"Having employees that feel supported and valued is critical to ensuring they provide a high quality of service to your customers. Empowering employees to make appropriate decisions helps improve the speed and quality of interactions with customers, improving your overall service. 82% of businesses believe using mobile technology to improve the way people work will be important over the next 5 years"
+						}
+					}
+				]
+			},
+			{
+				"id":323,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to improve the capability for your employees to work on their own preferred devices and applications in the workplace.",
+							"body":"This is an extremely worthwhile investment. Over time, you can recruit and retain the best staff in your business through an appealing employee communications package that allows them to work how they want."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to improve the capability for your employees to work on their own preferred devices and applications in the workplace.",
+							"body":"This is an extremely worthwhile investment. Over time, you can recruit and retain the best staff in your business through an appealing employee communications package that allows them to work how they want."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will improve the capability for your employees to work on their own preferred devices and applications in the workplace.",
+							"body":"With fierce competition, it's important to maintain a modern working environment, both in the office and remotely. Increasingly, the top talent will be influenced in their career decisions by the flexibility of working arrangements."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to improve the capability for your employees to work on their own preferred devices and applications in the workplace.",
+							"body":"With fierce competition, it's important to maintain a modern working environment, both in the office and remotely. Increasingly, the top talent will be influenced in their career decisions by the flexibility of working arrangements."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to improve the capability for your employees to work on their own preferred devices and applications in the workplace.",
+							"body":"With fierce competition, it's important to maintain a modern working environment, both in the office and remotely. Increasingly, the top talent will be influenced in their career decisions by the flexibility of working arrangements."
+						}
+					}
+				]
+			},
+			{
+				"id":290,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that the management and security of data across corporate systems and mobile devices is a critical business priority.",
+							"body":"With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that the management and security of data across corporate systems and mobile devices is a critical business priority.",
+							"body":"With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that the management and security of data across corporate systems and mobile devices is a critical business priority.",
+							"body":"With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. Failing to do so risks regulatory breaches and losing customer confidence."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that the management and security of data across corporate systems and mobile devices is a critical business priority.",
+							"body":"With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. Failing to do so risks regulatory breaches and losing customer confidence."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree that the management and security of data across corporate systems and mobile devices is a critical business priority.",
+							"body":"With increasing levels of customer data being gathered and stored electronically, the risk of security breaches is ever increasing. Successful businesses ensure their customer data is protected at all times. Failing to do so risks regulatory breaches and losing customer confidence."
+						}
+					}
+				]
+			},
+			{
+				"id":326,
+				"sectorId":"sector_2",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to invest in solutions to protect business data on corporate systems and mobile devices.",
+							"body":"That's good news. The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to invest in solutions to protect business data on corporate systems and mobile devices.",
+							"body":"The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will invest in solutions to protect business data on corporate systems and mobile devices.",
+							"body":"The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to invest in solutions to protect business data on corporate systems and mobile devices.",
+							"body":"The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to invest in solutions to protect business data on corporate systems and mobile devices.",
+							"body":"The risk of security breaches is ever increasing and ever changing, so regardless of whether or not you prioritise security today, you should still consider security as a necessary investment for tomorrow."
+						}
+					}
+				]
+			},
+			{
+				"id":293,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that you use intelligent systems and solutions that use real time data - eg  from connected assets, products and \"things\", to improve customer experiences and respond quicker to customer needs and behaviour.",
+							"body":"That’s good because the most successful businesses not only seek customer insight, but also look to improve their service based on that information. 81% of businesses expect their customers to get more demanding over the next four years so it's more important than ever to focus on customer experience."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree you listen to customers and take their views seriously",
+							"body":"It's important that you gain insight from customers and have the process in place to look at how this feedback can be used to improve your service. With 81% of businesses believing their customers are going to become more demanding over the next four years, failing to act on these changing needs will drive customers to suppliers that do."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that you listen to customers and take their views seriously",
+							"body":"Businesses that don't have a mechanism for understanding and responding to customer demands often fail to highlight bad experience or uncompetitive services. 81% of businesses believe their customers will become more demanding over the next four years - if you're underperforming in this area, this could allow your competitors to gain a significant advantage."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that you listen to customers and take their views seriously",
+							"body":"Businesses that don't have a mechanism for understanding and responding to customer demands often fail to highlight bad experience or uncompetitive services. 81% of businesses believe their customers will become more demanding over the next four years - if you're underperforming in this area, this could allow your competitors to gain a significant advantage."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree you listen to customers and take their views seriously",
+							"body":"Businesses that don't have a mechanism for understanding and responding to customer demands often fail to highlight bad experience or uncompetitive services. 81% of businesses believe their customers will become more demanding over the next four years - if you're underperforming in this area, this could allow your competitors to gain a significant advantage."
+						}
+					}
+				]
+			},
+			{
+				"id":329,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to invest in the technology systems and solutions that improve customer experiences and allow you to react quicker to customers needs and behaviours.",
+							"body":"This is the best way of ensuring you keep enhancing your offer to meet customers needs."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to invest in the technology systems and solutions that improve customer experiences and allow you to react quicker to customers needs and behaviours.",
+							"body":"This is the best way of ensuring you keep enhancing your offer to meet customers needs."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will invest in the technology systems and solutions that improve customer experiences and allow you to react quicker to customers needs and behaviours.",
+							"body":"With fierce competition, it's important to keep your service as relevant as possible. Without understanding and acting on customer feedback it is easy for customers to go to competitors that can meet their needs."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to invest in the technology systems and solutions that improve customer experiences and allow you to react quicker to customers needs and behaviours.",
+							"body":"Customers needs and their buying behaviour is changing rapidly. Businesses that cannot offer the service that customers expect run the risk of becoming uncompetitiveand losing business to companies that are more tuned in to the needs of their customers."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to invest in the technology systems and solutions that improve customer experiences and allow you to react quicker to customers needs and behaviours.",
+							"body":"Customers needs and their buying behaviour is changing rapidly. Businesses that cannot offer the service that customers expect run the risk of becoming uncompetitiveand losing business to companies that are more tuned in to the needs of their customers."
+						}
+					}
+				]
+			},
+			{
+				"id":296,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that investing in solutions that streamline and simplify business processes and customer service is a key business priority.",
+							"body":"That's good because a best practice outcome for businesses that utilise new technology is the creation of value via increased productivity, increased collaboration, increased communication, and increased customer experience."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that investing in solutions that streamline and simplify business processes and customer service is a key business priority.",
+							"body":"That's good because a best practice outcome for businesses that utilise new technology is the creation of value via increased productivity, increased collaboration, increased communication, and increased customer experience."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that investing in solutions that streamline and simplify business processes and customer service is a key business priority.",
+							"body":"Technology solutions are developing rapidly to provide simple, cost effective ways of increasing efficiency and delivering better service to customers."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that investing in solutions that streamline and simplify business processes and customer service is a key business priority.",
+							"body":"You should reconsider this decision. Technology solutions are developing rapidly to provide simple, cost effective ways of increasing efficiency and delivering better service to customers."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree that investing in solutions that streamline and simplify business processes and customer service is a key business priority.",
+							"body":"You should reconsider this decision. Technology solutions are developing rapidly to provide simple, cost effective ways of increasing efficiency and delivering better service to customers."
+						}
+					}
+				]
+			},
+			{
+				"id":332,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to invest in solutions that streamline and simplify business processes and customer service.",
+							"body":"This is the right approach. The most successful businesses are constantly investing in new technology to improve business efficiency and improve service levels."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to invest in solutions that streamline and simplify business processes and customer service.",
+							"body":"Successful businesses use technology to improve business efficiency and deliver better service to customers. With rapid changes in the way your customers want to communicate and transact with you, it's important to remain competitive."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will invest in solutions that streamline and simplify business processes and customer service.",
+							"body":"You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to invest in solutions that streamline and simplify business processes and customer service.",
+							"body":"You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to invest in solutions that streamline and simplify business processes and customer service.",
+							"body":"You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive."
+						}
+					}
+				]
+			},
+			{
+				"id":299,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that you enable customers to contact you through their preferred channels and media.",
+							"body":"This is the right approach. The most successful businesses offer customers a broad range of channels for them to communicate and transact through. You should keep reviewing this, as customer behaviour is developing rapidly. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that you enable customers to contact you through their preferred channels and media.",
+							"body":"Customers are becoming increasingly demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that you enable customers to contact you through their preferred channels and media.",
+							"body":"Customers are becoming increasingly demanding and expect to communicate and transact with businesses in the way they want. Offering a broad range of communications channels from phone to email, chat to video keeps you competitive. 94% of businesses believe multi-channel engagement with customers is a priority."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that you enable customers to contact you through their preferred channels and media.",
+							"body":"Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree that you enable customers to contact you through their preferred channels and media.",
+							"body":"Successful businesses offer customers a choice of ways to communicate and transact with them, and customers expect to have choice. Failing to do this is likely to make your business uncompetitive as customers look elsewhere. 94% of businesses believe multi-channel engagement with customers is key."
+						}
+					}
+				]
+			},
+			{
+				"id":335,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to improve the choice of ways that customers can engage with you.",
+							"body":"It's important to prioritise this. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business. The most ready businesses are twice as likely to believe in more interactive, personal communication with customers."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to improve the choice of ways that customers can engage with you.",
+							"body":"Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will improve the choice of ways that customers can engage with you.",
+							"body":"Customers are increasingly demanding and intolerant of delays (e.g. whether finding information on a website or waiting for delivery of an online order) and expecting personalised and customised experiences. They are willing to switch suppliers if they don’t get the response they expect."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to improve the choice of ways that customers can engage with you.",
+							"body":"You should reconsider this decision. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to improve the choice of ways that customers can engage with you.",
+							"body":"You should reconsider this decision. The ways customers want to communicate and transact with businesses is rapidly changing, and customers expect choice. Failing to enable customers to contact you as they want could mean you lose business."
+						}
+					}
+				]
+			},
+			{
+				"id":302,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you completely agree that you are using digital technology solutions to drive business growth and competitive advantage.",
+							"body":"This is the right approach. The most successful businesses are constantly investing in new technology to improve business efficiency and improve service levels. If you're already benefitting from the best that technology has to offer, including the Internet of Things (or Machine to Machine), you're likely enjoying a competitive advantage."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you partially agree that you are using digital technology solutions to drive business growth and competitive advantage.",
+							"body":"This may be an area where you want to make absolute sure you're doing all you can to embrace technology, like the Internet of Things, or Machine to Machine. The most successful businesses are constantly investing in new technology to improve business efficiency and improve service levels."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you neither agree nor disagree that you are using digital technology solutions to drive business growth and competitive advantage.",
+							"body":"This may be an area where you want to make absolute sure you're doing all you can to embrace technology, like the Internet of Things, or Machine to Machine. The most successful businesses are constantly investing in new technology to improve business efficiency and improve service levels."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you mainly disagree that you are using digital technology solutions to drive business growth and competitive advantage.",
+							"body":"You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you strongly disagree that you are using digital technology solutions to drive business growth and competitive advantage.",
+							"body":"You should consider this decision. Successful businesses use technology to improve business efficiency and delivery better service to customers. With rapid changes in the way your customers want to communicate and transact with you, technology solutions help you remain competitive. The most ready businesses are three times more likely to believe that cloud-based or managed services are very important for their business."
+						}
+					}
+				]
+			},
+			{
+				"id":338,
+				"sectorId":"sector_3",
+				"answer_options":[
+					{
+						"reporting_val":"1",
+						"weight":0.8,
+						"associated_text":{
+							"title":"You said that you are very likely to invest in new digital technology solutions that will help you create a competitive advantage or create a new product, service or business model.",
+							"body":"Successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers - investing in appropriate technology can be a cost effective way of moving your business forward."
+						}
+					},
+					{
+						"reporting_val":"2",
+						"weight":0.6,
+						"associated_text":{
+							"title":"You said that you are quite likely to invest in new digital technology solutions that will help you create a competitive advantage or create a new product, service or business model.",
+							"body":"Successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers - investing in appropriate technology can be a cost effective way of moving your business forward."
+						}
+					},
+					{
+						"reporting_val":"3",
+						"weight":0.5,
+						"associated_text":{
+							"title":"You said that you are unsure if you will invest in new digital technology solutions that will help you create a competitive advantage or create a new product, service or business model.",
+							"body":"Technology solutions are increasingly easy and cost effective to deploy. The most successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers."
+						}
+					},
+					{
+						"reporting_val":"4",
+						"weight":0.3,
+						"associated_text":{
+							"title":"You said that you are unlikely to invest in new digital technology solutions that will help you create a competitive advantage or create a new product, service or business model.",
+							"body":"Technology solutions are increasingly easy and cost effective to deploy. The most successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers."
+						}
+					},
+					{
+						"reporting_val":"5",
+						"weight":0.2,
+						"associated_text":{
+							"title":"You said that you have no plans to invest in new digital technology solutions that will help you create a competitive advantage or create a new product, service or business model.",
+							"body":"Technology solutions are increasingly easy and cost effective to deploy. The most successful businesses use technology solutions to increase business efficiency or provide more differentiated services to customers."
 						}
 					}
 				]

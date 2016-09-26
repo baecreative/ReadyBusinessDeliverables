@@ -1,13 +1,13 @@
 {
 	"readiness_name": {
-		"ready": "ready",
-		"almostReady": "almost ready",
-		"unready": "unready",
-		"atRisk": "at risk"
+		"ready": "Ready",
+		"almostReady": "Almost ready",
+		"unready": "Unready",
+		"atRisk": "At risk"
 	},
 	"sector_name": {
-		"sector_1": "operational agility",
-		"sector_2": "connected employees",
-		"sector_3": "customer engagement"
+		"sector_1": "Your business operations",
+		"sector_2": "Your employees",
+		"sector_3": "Your customers"
 	}
 }

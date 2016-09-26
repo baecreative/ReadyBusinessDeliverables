@@ -2,265 +2,821 @@
 	"products": [
 		{
 			"id": "product_1",
-			"title": "Vodacom Mobile contracts",
-			"description": "Vodacom Mobile contracts description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
+			"title": "Broadband Connect suite",
+			"description": "Broadband Connect Wireless empowers your business to stay connected. Businesses like yours report an increase in efficiency when using this service.",
 			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 1,
-			"article_id": "article_1",
+			"priority": 24,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 12,
-					"additional_logic": "(12.1)"
+					"questionId": 15,
+					"additional_logic": "(15.3 OR 15.4 OR 15.5)"
 				},
 				{	
-					"questionId": 28,
-					"additional_logic": "(7.1 OR 7.3)"
-				}
+					"questionId": 16,
+					"additional_logic": "(16.3 OR 16.4 OR 16.5)"
+				},
+				{	
+					"questionId": 24,
+					"additional_logic": "(24.3 OR 24.4 OR 24.5)"
+				},
+				{	
+					"questionId": 25,
+					"additional_logic": "(25.3 OR 25.4 OR 25.5)"
+				}								
 			]
 		},
 		{
 			"id": "product_2",
-			"title": "Broadband Connect suite",
-			"description": "Broadband Connect Wireless empowers your business to stay connected. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas.",
+			"title": "One Net Business",
+			"description": "Never miss another business call. Designed for small and medium sized organisations to manage all incoming calls whether you are office based or on the move. Link your fixed line number to selected cell phone numbers so calls never go unanswered.",
 			"image": "img/product-img/Vodafone_Product2.jpg",
-			"priority": 3,
-			"article_id": "article_2",
+			"priority": 12,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 28,
-					"additional_logic": "(7.2 OR 7.3)"
-				}
+					"questionId": 15,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 16,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 24,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 25,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 226,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 233,
+					"additional_logic": "(3.1)"
+				}				
 			]					
 		},
 		{
 			"id": "product_3",
-			"title": "SpendManager",
-			"description": "SpendManager description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 5,
-			"article_id": "article_3",
+			"title": "One Net Enterprise",
+			"description": "Never miss another business call. Designed for large organisations to manage all incoming calls whether you are office based or on the move. Link your fixed line number to selected cell phone numbers so calls never go unanswered.",
+			"image": "img/product-img/Vodafone_Product3.jpg",
+			"priority": 11,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 12,
-					"additional_logic": "(12.1 OR 12.2)"
+					"questionId": 15,
+					"additional_logic": "(3.4)"
 				},
 				{	
-					"questionId": 17
+					"questionId": 16,
+					"additional_logic": "(3.4)"
+				},
+				{	
+					"questionId": 24,
+					"additional_logic": "(3.4)"
+				},
+				{	
+					"questionId": 25,
+					"additional_logic": "(3.4)"
+				},
+				{	
+					"questionId": 226,
+					"additional_logic": "(3.4)"
+				},
+				{	
+					"questionId": 233,
+					"additional_logic": "(3.4)"
+				},
+				{
+					"questionId": 280,
+					"additional_logic": "(280.2 OR 280.3 OR 280.4 OR 280.5)"
+				},
+				{
+					"questionId": 317,
+					"additional_logic": "(317.2 OR 317.3 OR 317.4 OR 317.5)"
 				}
 			]					
 		},
 		{
 			"id": "product_4",
-			"title": "One Net Express",
-			"description": "Never miss another business call. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product2.jpg",
-			"priority": 7,
-			"article_id": "article_1",
+			"title": "Cloud Backup",
+			"description": "Efficient secure back-up you control. Retain your current backup approach and redirect to Cloud Backup and benefit from better costs and agility. Reduce the amount of data backed up daily by as much as 10 to 30 times and reduce backup costs by up to 80%.",
+			"image": "img/product-img/Vodafone_Product4.jpg",
+			"priority": 25,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 12,
-					"additional_logic": "(12.3)"
+					"questionId": 22,
+					"additional_logic": "(22.3 OR 22.4 OR 22.5)"
 				},
 				{	
-					"questionId": 13
-				},
-				{	
-					"questionId": 20
-				}
+					"questionId": 248,
+					"additional_logic": "(248.3 OR 248.4 OR 248.5)"
+				}			
 			]					
 		},
 		{
 			"id": "product_5",
-			"title": "Lync",
-			"description": "Lync description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 8,
-			"article_id": "article_4",
+			"title": "Managed Exchange",
+			"description": "Cut the cost of email with our managed service. It helps you take control, simplify your systems, save time and improve availability. It can also help you reduce monthly mailbox costs by up to 40%.",
+			"image": "img/product-img/Vodafone_Product5.jpg",
+			"priority": 26,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 12,
-					"additional_logic": "(12.5)"
-				}
+					"questionId": 15,
+					"additional_logic": "(15.3 OR 15.4 OR 15.5)"
+				},
+				{	
+					"questionId": 20,
+					"additional_logic": "(20.3 OR 20.4 OR 20.5)"
+				}				
 			]					
 		},
 		{
 			"id": "product_6",
-			"title": "Website Builder",
-			"description": "Website Builder description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product4.jpg",
-			"priority": 7,
-			"article_id": "article_3",
+			"title": "Enterprise Managed Mobility",
+			"description": "A managed service that lets your employees work securely using their own devices, helping you build and control a flexible mobility strategy.",
+			"image": "img/product-img/Vodafone_Product6.jpg",
+			"priority": 5,
+			"article_id": "",
 			"display_logic": [
-				{	
-					"questionId": 14,
-					"additional_logic": "(9.2)"
+				{
+					"questionId": 290,
+					"additional_logic": "(290.2 OR 290.3 OR 290.4 OR 290.5)"
 				},
 				{
-					"questionId": 15
+					"questionId": 326,
+					"additional_logic": "(326.2 OR 326.3 OR 326.4 OR 326.5)"
 				}
-			]					
+			]				
 		},
 		{
 			"id": "product_7",
-			"title": "Hosted CRM",
-			"description": "Hosted CRM description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product3.jpg",
-			"priority": 3,
-			"article_id": "article_5",
+			"title": "Vodafone Secure Device Manager",
+			"description": "Ensure the safety and compliance of all your devices, including secure use of personal phones and tablets through Bring Your Own Device.",
+			"image": "img/product-img/Vodafone_Product7.jpg",
+			"priority": 17,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 14,
-					"additional_logic": "(NOT 14.5)"
+					"questionId": 13,
+					"additional_logic": "((13.2 OR 13.3 OR 13.4 OR 13.5) AND (NOT 3.1))"
+				},
+				{	
+					"questionId": 17,
+					"additional_logic": "((17.2 OR 17.3 OR 17.4 OR 17.5) AND (NOT 3.1))"
+				},
+				{	
+					"questionId": 242,
+					"additional_logic": "((242.2 OR 242.3 OR 242.4 OR 242.5) AND (NOT 3.1))"
 				}
 			]					
 		},
 		{
 			"id": "product_8",
-			"title": "Bulk SMS",
-			"description": "Bulk SMS description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 2,
-			"article_id": "article_2",
+			"title": "Vodafone Secure Device Manager for SMEs",
+			"description": "Ensure the safety and compliance of all your devices, including secure use of personal phones and tablets through Bring Your Own Device.",
+			"image": "img/product-img/Vodafone_Product8.jpg",
+			"priority": 27,
+			"article_id": "",
 			"display_logic": [
 				{	
+					"questionId": 17,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 19,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 13,
+					"additional_logic": "(3.1)"
+				},
+				{	
 					"questionId": 14,
-					"additional_logic": "(NOT 14.5)"
-				}
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 242,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 245,
+					"additional_logic": "(3.1)"
+				}																
 			]					
 		},
 		{
 			"id": "product_9",
-			"title": "LiveTrack vehicle tracking",
-			"description": "LiveTrack vehicle tracking description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 10,
-			"article_id": "article_2",
+			"title": "Cloud Storage",
+			"description": "Increase productivity and lower costs with secure cloud storage solutions. You can simply, quickly and cost-effectively connect all your business users to the information they need, when they need it, to help them deliver your organisational goals.",
+			"image": "img/product-img/Vodafone_Product9.jpg",
+			"priority": 28,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 21
-				}
+					"questionId": 17,
+					"additional_logic": "(17.3 OR 17.4 OR 17.5)"
+				},
+				{	
+					"questionId": 24,
+					"additional_logic": "(24.3 OR 24.4 OR 24.5)"
+				}							
 			]					
 		},
 		{
 			"id": "product_10",			
-			"title": " Secure Network and VSDM (Vodacom Security Device Manager)",
-			"description": "Secure Network and VSDM description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product4.jpg",
-			"priority": 7,
-			"article_id": "article_6",
+			"title": "Data Storage",
+			"description": "Enterprise-class storage – ready for Big Data and much more. Our solutions will help turn vast amounts of enterprise data into meaningful insights that you can use to differentiate your enterprise while keeping your data absolutely secure.",
+			"image": "img/product-img/Vodafone_Product10.jpg",
+			"priority": 21,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 22
+					"questionId": 248,
+					"additional_logic": "(248.3 OR 248.4 OR 248.5)"
 				},
 				{
-					"questionId": 27
+					"questionId": 17,
+					"additional_logic": "(17.3 OR 17.4 OR 17.5)"
+				},
+				{
+					"questionId": 271,
+					"additional_logic": "(271.2 OR 271.3 OR 271.4 OR 271.5)"
+				},
+				{
+					"questionId": 308,
+					"additional_logic": "(308.2 OR 308.3 OR 308.4 OR 308.5)"
 				}
 			]					
 		},
 		{
 			"id": "product_11",
-			"title": "Cloud Backup",
-			"description": "Efficient secure back-up you control. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product2.jpg",
-			"priority": 2,
-			"article_id": "article_6",
+			"title": "Professional Services",
+			"description": "Our Professional Services are designed to offer advice and support as you assess your IT landscape. Whether you need a more strategic review of your infrastructure or you don't have the right skills in-house to achieve your IT strategy - whatever you need, Vodafone has the tools and expertise to help.",
+			"image": "img/product-img/Vodafone_Product11.jpg",
+			"priority": 13,
+			"article_id": "",
 			"display_logic": [
+				{
+					"questionId": 20,
+					"additional_logic": "(20.2 OR 20.3 OR 20.4 OR 20.5)"
+				},
+				{
+					"questionId": 21,
+					"additional_logic": "(21.2 OR 21.3 OR 21.4 OR 21.5)"
+				},
+				{
+					"questionId": 274,
+					"additional_logic": "(274.2 OR 274.3 OR 274.4 OR 274.5)"
+				},
 				{	
-					"questionId": 24,
-					"additional_logic": "(3.1 or 3.2)"
-				}
+					"questionId": 311,
+					"additional_logic": "(311.2 OR 311.3 OR 311.4 OR 311.5)"
+				}				
 			]					
 		},
 		{
 			"id": "product_12",
-			"title": "Managed Backup",
-			"description": "Managed Backup description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 8,
-			"article_id": "article_3",
+			"title": "Private Cloud",
+			"description": "Build your own private cloud. Save time and resources by turning your own infrastructure into a dedicated, flexible and cost-effective service that drives growth.",
+			"image": "img/product-img/Vodafone_Product12.jpg",
+			"priority": 30,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 24,
-					"additional_logic": "(3.3 OR 3.4 OR 3.5)"
-				}
+					"questionId": 22,
+					"additional_logic": "(22.2 OR 22.3 OR 22.4 OR 22.5)"
+				},
+				{	
+					"questionId": 23,
+					"additional_logic": "(23.2 OR 23.3 OR 23.4 OR 23.5)"
+				}				
 			]					
 		},
 		{
 			"id": "product_13",
-			"title": "Conference Connect",
-			"description": "Conference Connect description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product1.jpg",
-			"priority": 5,
-			"article_id": "article_3",
+			"title": "Managed Hosting",
+			"description": "Create your ideal IT infrastructure without tying up resources. Every business is different, so we offer a bespoke solution to meet your precise security and performance requirements.",
+			"image": "img/product-img/Vodafone_Product13.jpg",
+			"priority": 31,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 25
+					"questionId": 22,
+					"additional_logic": "(22.2 OR 22.3 OR 22.4 OR 22.5)"
 				},
 				{
-					"questionId": 20,
-					"additional_logic": "(NOT 20.5)"
+					"questionId": 23,
+					"additional_logic": "(23.2 OR 23.3 OR 23.4 OR 23.5)"
 				}
 			]					
 		},
 		{
 			"id": "product_14",
-			"title": "Office 365",
-			"description": "Office 365 description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product4.jpg",
-			"priority": 2,
+			"title": "Hybrid Cloud",
+			"description": "Our Hybrid Cloud solutions combines the security of private cloud and the total flexibility of public clouds. Make your business agile and get total control of your data, apps and IT infrastructure as Hybrid Cloud enables you to move workloads seamlessly between private & public clouds. You get the storage and capability you need to support your big data strategy. You can deliver new services faster though flexible capacity and mouldable capability. You empower your IT to focus on what matters and your end user are better connected and more productive.",
+			"image": "img/product-img/Vodafone_Product14.jpg",
+			"priority": 32,
 			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 26
+					"questionId": 22,
+					"additional_logic": "(22.2 OR 22.3 OR 22.4 OR 22.5)"
 				},
 				{	
-					"questionId": 20,
-					"additional_logic": "(NOT 20.5)"
-				},
-				{
-					"questionId": 23
+					"questionId": 23,
+					"additional_logic": "(23.2 OR 23.3 OR 23.4 OR 23.5)"
 				}
 			]					
 		},
 		{
 			"id": "product_15",
-			"title": "Econz Wireless",
-			"description": "Econz Wireless description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product2.jpg",
-			"priority": 7,
-			"article_id": "article_6",
+			"title": "Vodafone RED for Global Enterprise",
+			"description": "Pool your employees’ data allowances and share them flexibly across your organisation so you don’t have to juggle multiple allowances.Vodafone Business Freedom: With flexible roaming, data options and 4G as standard, our Business Freedom plans let your employees work how, when and where they need to – in the UK and abroad.",
+			"image": "img/product-img/Vodafone_Product15.jpg",
+			"priority": 1,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 16
+					"questionId": 277,
+					"additional_logic": "(277.2 OR 277.3 OR 277.4 OR 277.5)"
+				},
+				{	
+					"questionId": 283,
+					"additional_logic": "(283.2 OR 283.3 OR 283.4 OR 283.5)"
+				},
+				{	
+					"questionId": 314,
+					"additional_logic": "(314.2 OR 314.3 OR 314.4 OR 314.5)"
+				},
+				{
+					"questionId": 320,
+					"additional_logic": "(320.2 OR 320.3 OR 320.4 OR 320.5)"
 				}
 			]					
 		},
 		{
 			"id": "product_16",
-			"title": "SAP Business One",
-			"description": "SAP Business One description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product3.jpg",
-			"priority": 9,
-			"article_id": "article_2",
+			"title": "RED+ for SMEs",
+			"description": "Red+ is designed specifically for Small and Medium sized Enterprises who are looking to take advantage of new technologies to grow their business. Using the Red+ tariff you can harness the full potential of business communications and applications for your mobile workforce as your business grows and develops.",
+			"image": "img/product-img/Vodafone_Product16.jpg",
+			"priority": 2,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 19
-				}
+					"questionId": 27,
+					"additional_logic": "(3.1)"					
+				},
+				{	
+					"questionId": 223,
+					"additional_logic": "(3.1)"					
+				},
+				{	
+					"questionId": 20,
+					"additional_logic": "(3.1)"					
+				},
+				{	
+					"questionId": 21,
+					"additional_logic": "(3.1)"					
+				}										
 			]					
 		},
 		{
 			"id": "product_17",
-			"title": "Onedrive",
-			"description": "Onedrive description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-			"image": "img/product-img/Vodafone_Product3.jpg",
-			"priority": 13,
-			"article_id": "article_5",
+			"title": "Total Workforce Mobility",
+			"description": "Being Ready means putting the right technology in the hands of your mobile workers. Total Workforce Mobility (TWM) is a suite of mobile applications, technologies and services which help your people spend less time on administration – and more time doing the job they signed up for. With more efficient mobile working, your employees will have the power to take the action they need or make decisions wherever they are.",
+			"image": "img/product-img/Vodafone_Product17.jpg",
+			"priority": 33,
+			"article_id": "",
 			"display_logic": [
 				{	
-					"questionId": 20,
-					"additional_logic": "(NOT 20.4)"
+					"questionId": 242,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 236,
+					"additional_logic": "(3.1)"
+				},
+				{	
+					"questionId": 13,
+					"additional_logic": "(3.1)"
+				}															
+			]				
+		},
+		{
+			"id": "product_18",
+			"title": "Vodafone Managed Tablet",
+			"description": "Vodafone’s Internet of Things (IoT) Managed Tablet solution helps you focus on core competencies while ensuring the security, management and lifecycle of a connected device.",
+			"image": "img/product-img/Vodafone_Product18.jpg",
+			"priority": 22,
+			"article_id": "",
+			"display_logic": [
+				{	
+					"questionId": 248,
+					"additional_logic": "(248.2 OR 248.3 OR 248.4 OR 248.5)"
+				},
+				{
+					"questionId": 286,
+					"additional_logic": "(286.2 OR 286.3 OR 286.4 OR 286.5)"
+				},
+				{
+					"questionId": 323,
+					"additional_logic": "(323.2 OR 323.3 OR 323.4 OR 323.5)"
 				}
 			]				
+		},
+		{
+			"id": "product_19",
+			"title": "Integrated Terminals",
+			"description": "Our integrated terminals with embedded connectivity deliver secure, transparent, reliable information exchange between devices, corporate networks and users. They are used in millions of devices, from air conditioning units to point of sale kiosks, from digital signage to security systems.",
+			"image": "img/product-img/Vodafone_Product19.jpg",
+			"priority": 34,
+			"article_id": "",
+			"display_logic": [
+				{	
+					"questionId": 248,
+					"additional_logic": "(248.3 OR 248.4 OR 248.5)"
+				},
+				{	
+					"questionId": 20,
+					"additional_logic": "(20.3 OR 20.4 OR 20.5)"
+				},
+				{	
+					"questionId": 26,
+					"additional_logic": "(26.3 OR 26.4 OR 26.5)"
+				}															
+			]				
+		},
+		{
+			"id": "product_20",
+			"title": "Asset Tracking",
+			"description": "With Vodafone’s Asset Tracking solutions we can help put you back in control. We use a range of positioning technologies to enable you to locate and track your assets in real time. It helps you operate more efficiently, reduce theft and recover lost or stolen assets.",
+			"image": "img/product-img/Vodafone_Product20.jpg",
+			"priority": 35,
+			"article_id": "",
+			"display_logic": [
+				{	
+					"questionId": 248,
+					"additional_logic": "(248.3 OR 248.4 OR 248.5)"
+				}															
+			]				
+		},
+		{
+			"id": "product_21",
+			"title": "Vodafone Process Tracker",
+			"description": "Vodafone Process Tracker allows you to use a combination of text messaging, email and automatically updated, personal web pages, to advise your customers and any third parties of the key stages of complex applications. It's a better way to communicate with customers, become more productive and obtain vital management information - while cutting your day-to-day costs.",
+			"image": "img/product-img/Vodafone_Product21.jpg",
+			"priority": 18,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 293,
+					"additional_logic": "(293.2 OR 293.3 OR 293.4 OR 293.5)"
+				},
+				{
+					"questionId": 296,
+					"additional_logic": "(296.2 OR 296.3 OR 296.4 OR 296.5)"
+				},
+				{
+					"questionId": 329,
+					"additional_logic": "(329.2 OR 329.3 OR 329.4 OR 329.5)"
+				},
+				{
+					"questionId": 332,
+					"additional_logic": "(332.2 OR 332.3 OR 332.4 OR 332.5)"
+				}
+			]				
+		},
+		{
+			"id": "product_22",
+			"title": "Vodafone Media Recording and Analytics ",
+			"description": "Vodafone Media Recording and Analytics is a comprehensive set of recording and workforce optimisation solutions. Together they help you enhance contact centre and back office performance, increase revenues and meet stringent compliance targets.",
+			"image": "img/product-img/Vodafone_Product22.jpg",
+			"priority": 36,
+			"article_id": "",
+			"display_logic": [
+				{	
+					"questionId": 28,
+					"additional_logic": "(28.3 OR 28.4 OR 28.5)"
+				},
+				{	
+					"questionId": 12,
+					"additional_logic": "(12.3 OR 12.4 OR 12.5)"
+				}														
+			]				
+		},
+		{
+			"id": "product_23",
+			"title": "Customer Experience Solutions",
+			"description": "We can help your organisation engage with your customers in a more effective and personalised manner, helping to build longer lasting relationships. We offer innovations such as our multiple channel platform, which lets your customers choose how they get in touch with you.",
+			"image": "img/product-img/Vodafone_Product23.jpg",
+			"priority": 6,
+			"article_id": "",
+			"display_logic": [
+				{	
+					"questionId": 28,
+					"additional_logic": "(28.3 OR 28.4 OR 28.5)"
+				},
+				{	
+					"questionId": 12,
+					"additional_logic": "(12.3 OR 12.4 OR 12.5)"
+				},
+				{	
+					"questionId": 226
+				},
+				{	
+					"questionId": 233
+				},
+				{
+					"questionId": 299,
+					"additional_logic": "(299.2 OR 299.3 OR 299.4 OR 299.5)"
+				},
+				{
+					"questionId": 335,
+					"additional_logic": "(335.2 OR 335.3 OR 335.4 OR 335.5)"
+				}
+			]				
+		},
+		{
+			"id": "product_24",
+			"title": "Fixed connectivity (IPVPN and Ethernet)",
+			"description": "Vodafone can support your business all over the world. We provide secure, reliable connectivity where you operate, so all your employees get a consistently excellent experience. Our communications infrastructure provides a resilient platform for your critical business applications today - as well as next-generation cloud, IT and unified communications services.",
+			"image": "img/product-img/Vodafone_Product24.jpg",
+			"priority": 3,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 20,
+					"additional_logic": "(20.2 OR 20.3 OR 20.4 OR 20.5)"
+				}
+			]
+		},
+		{
+			"id": "product_25",
+			"title": "Unified Communications",
+			"description": "As a total communications provider, Vodafone ensures that organisations are confidently connected across all parts of their business: across their places, things and business assets, but most importantly across their people.",
+			"image": "img/product-img/Vodafone_Product25.jpg",
+			"priority": 4,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 20,
+					"additional_logic": "(20.3 OR 20.4 OR 20.5)"
+				},
+				{
+					"questionId": 24,
+					"additional_logic": "(24.3 OR 24.4 OR 24.5)"
+				}
+			]
+		},
+		{
+			"id": "product_26",
+			"title": "Vodafone Internet of Things (IoT) solutions",
+			"description": "By embracing the Internet of Things, you transform assets into intelligent devices. Vodafone is a global leader at delivering solutions that are tailored to your industry and organisation.",
+			"image": "img/product-img/Vodafone_Product23.jpg",
+			"priority": 7,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 20,
+					"additional_logic": "(20.3 OR 20.4 OR 20.5)"
+				},
+				{
+					"questionId": 26,
+					"additional_logic": "(26.3 OR 26.4 OR 26.5)"
+				},
+				{
+					"questionId": 248,
+					"additional_logic": "(248.3 OR 248.4 OR 248.5)"
+				},
+				{
+					"questionId": 293,
+					"additional_logic": "(293.2 OR 293.3 OR 293.4 OR 293.5)"
+				},
+				{
+					"questionId": 329,
+					"additional_logic": "(329.2 OR 329.3 OR 329.4 OR 329.5)"
+				},
+				{
+					"questionId": 302,
+					"additional_logic": "(302.2 OR 302.3 OR 302.4 OR 302.5)"
+				},
+				{
+					"questionId": 338,
+					"additional_logic": "(338.2 OR 338.3 OR 338.4 OR 338.5)"
+				}
+			]
+		},
+		{
+			"id": "product_27",
+			"title": "Vodafone Global Connectivity Solutions",
+			"description": "Vodafone can support your business all over the world with secure, reliable, fixed and mobile connectivity wherever you operate. Our communications infrastructure helps you respond quickly to opportunities and threats and provides a resilient platform for your critical business applications.",
+			"image": "img/product-img/Vodafone_Product24.jpg",
+			"priority": 3,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 268,
+					"additional_logic": "(268.2 OR 268.3 OR 268.4 OR 268.5)"
+				},
+				{
+					"questionId": 305,
+					"additional_logic": "(305.2 OR 305.3 OR 305.4 OR 305.5)"
+				},
+				{
+					"questionId": 271,
+					"additional_logic": "(271.2 OR 271.3 OR 271.4 OR 271.5)"
+				},
+				{
+					"questionId": 308,
+					"additional_logic": "(308.2 OR 308.3 OR 308.4 OR 308.5)"
+				}
+			]
+		},
+		{
+			"id": "product_28",
+			"title": "Vodafone Telecoms Management",
+			"description": "Business communications are becoming more sophisticated, diverse and harder to control. At the same time, balancing the needs of finance, IT and procurement departments can make things more complex and less effective. Our range of telecoms management solutions provide the expertise, technology and services you need to make the most of your communications infrastructure.",
+			"image": "img/product-img/Vodafone_Product28.jpg",
+			"priority": 3,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 277,
+					"additional_logic": "(277.2 OR 277.3 OR 277.4 OR 277.5)"
+				},
+				{
+					"questionId": 314,
+					"additional_logic": "(314.2 OR 314.3 OR 314.4 OR 314.5)"
+				}
+			]
+		},
+		{
+			"id": "product_29",
+			"title": "mTransformation",
+			"description": "We help you derive real competitive advantage by using mobile technology to develop new products and services, radically improve business processes and gain new customer insights to develop productive customer relationships. Our portfolio includes a range of Internet of Things (IoT) applications, along with mobile data, payment and marketing solutions.",
+			"image": "img/product-img/Vodafone_Product29.jpg",
+			"priority": 10,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 302,
+					"additional_logic": "(302.2 OR 302.3 OR 302.4 OR 302.5)"
+				},
+				{
+					"questionId": 338,
+					"additional_logic": "(338.2 OR 338.3 OR 338.4 OR 338.5)"
+				}
+			]
+		},
+		{
+			"id": "product_30",
+			"title": "Vodafone Red for Global Enterprise, Security Edition",
+			"description": "Getting started is straightforward with one simple contract across all countries. All of your employees are then placed onto the Vodafone Red for Global Enterprise, Security Edition plan. We will guide you to enrol your device fleet onto our Vodafone Secure Device Manager and set up the Vodafone Mobile Threat Manager policies across the company devices.",
+			"image": "img/product-img/Vodafone_Product15.jpg",
+			"priority": 38,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 277,
+					"additional_logic": "(277.2 OR 277.3 OR 277.4 OR 277.5)"
+				},
+				{
+					"questionId": 314,
+					"additional_logic": "(314.2 OR 314.3 OR 314.4 OR 314.5)"
+				},
+				{
+					"questionId": 290,
+					"additional_logic": "(290.2 OR 290.3 OR 290.4 OR 290.5)"
+				},
+				{
+					"questionId": 326,
+					"additional_logic": "(326.2 OR 326.3 OR 326.4 OR 326.5)"
+				}
+			]
+		},
+		{
+			"id": "product_31",
+			"title": "Vodafone M-Pesa",
+			"description": "In emerging markets, where many consumers have access to mobile devices but no access to a bank account, enterprises are using our mobile payment solution mPesa to conduct business, pay staff salaries and expenses or to take cash out of the distribution chain.",
+			"image": "img/product-img/Vodafone_Product31.jpg",
+			"priority": 38,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 271,
+					"additional_logic": "(271.2 OR 271.3 OR 271.4 OR 271.5)"
+				},
+				{
+					"questionId": 308,
+					"additional_logic": "(308.2 OR 308.3 OR 308.4 OR 308.5)"
+				},
+				{
+					"questionId": 302,
+					"additional_logic": "(302.2 OR 302.3 OR 302.4 OR 302.5)"
+				},
+				{
+					"questionId": 338,
+					"additional_logic": "(338.2 OR 338.3 OR 338.4 OR 338.5)"
+				}
+			]
+		},
+		{
+			"id": "product_32",
+			"title": "Vodafone Contact Centre",
+			"description": "Vodafone Contact Centre is based on industry standard platforms from leading vendors. It encompasses voice-only call centres, multi-channel contact centres handling inbound and outbound voice calls, emails, web interactions (such as text chat and page sharing), and automated transactions using speech recognition applications.",
+			"image": "img/product-img/Vodafone_Product32.jpg",
+			"priority": 15,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 299,
+					"additional_logic": "(299.2 OR 299.3 OR 299.4 OR 299.5)"
+				},
+				{
+					"questionId": 335,
+					"additional_logic": "(335.2 OR 335.3 OR 335.4 OR 335.5)"
+				}
+			]
+		},
+		{
+			"id": "product_33",
+			"title": "Vodafone Cloud & Hosting",
+			"description": "Vodafone's range of Cloud and Hosting solutions is designed to give you a more flexible, scalable and cost-efficient IT infrastructure. All offer Vodafone's world-class infrastructure and unmatched experience. We offer flexible payment plans to meet your specific needs and help you manage costs more effectively.",
+			"image": "img/product-img/Vodafone_Product13.jpg",
+			"priority": 8,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 274,
+					"additional_logic": "(274.2 OR 274.3 OR 274.4 OR 274.5)"
+				},
+				{
+					"questionId": 311,
+					"additional_logic": "(311.2 OR 311.3 OR 311.4 OR 311.5)"
+				}
+			]
+		},
+		{
+			"id": "product_34",
+			"title": "Vodafone Red Enterprise Bundles",
+			"description": "Provides a company-wide bundle of pooled usage shared by staff within a country or business organisation. This provides simple, predictable pricing to match your company wide profile in each country. All of your employees and all of their devices can draw from the pool for maximum efficiencies.",
+			"image": "img/product-img/Vodafone_Product34.jpg",
+			"priority": 16,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 283,
+					"additional_logic": "(283.2 OR 283.3 OR 283.4 OR 283.5)"
+				},
+				{
+					"questionId": 320,
+					"additional_logic": "(320.2 OR 320.3 OR 320.4 OR 320.5)"
+				}
+			]
+		},
+		{
+			"id": "product_35",
+			"title": "Vodafone Bring Your Own Device Solutions (BYOX)",
+			"description": "Employees now expect more choice and freedom at work, including where they work and what device they work on. Being able to work flexibly is key to company loyalty, with employees more likely to leave after two years if their needs aren’t met.In order to bring the flexible, productive, ‘Bring Your Own Everything’ (BYOx) workplace to life, businesses need to first address the challenges that come with employees doing more than just connecting to company networks.",
+			"image": "img/product-img/Vodafone_Product35.jpg",
+			"priority": 19,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 286,
+					"additional_logic": "(286.2 OR 286.3 OR 286.4 OR 286.5)"
+				},
+				{
+					"questionId": 323,
+					"additional_logic": "(323.2 OR 323.3 OR 323.4 OR 323.5)"
+				}
+			]
+		},
+		{
+			"id": "product_36",
+			"title": "Vodafone Managed Messaging",
+			"description": "It’s estimated that 91% of adults have their mobile phone to hand 24 hours a day. A staggering 98% of all text messages are read – and 90% are opened within three seconds of arriving. Text messages enable you to contact lots of people directly at low cost - whether it’s a tactical marketing promotion, an urgent service announcement or an internal staff update.",
+			"image": "img/product-img/Vodafone_Product36.jpg",
+			"priority": 20,
+			"article_id": "",
+			"display_logic": [
+				{
+					"questionId": 296,
+					"additional_logic": "(296.2 OR 296.3 OR 296.4 OR 296.5)"
+				},
+				{
+					"questionId": 332,
+					"additional_logic": "(332.2 OR 332.3 OR 332.4 OR 332.5)"
+				}
+			]
 		}
 	]
 }

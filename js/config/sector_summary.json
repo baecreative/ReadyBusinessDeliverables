@@ -5,19 +5,19 @@
 			"summary_text": [
 				{
 					"readiness": "ready",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "Great news - your business operations are in good shape to support your business objectives"
 				},
 				{
 					"readiness": "almostReady",
-					"text": "From your answers we believe that your company is slow to adapt to changes. Innovation is..."
+					"text": "Your business operations are able to support the needs of your business today, but improvements could be made to ensure you are ready for the future."
 				},
 				{
 					"readiness": "unready",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "From your answers, significant improvements to your business operations could be made to keep you ahead of the competition."
 				},
 				{
 					"readiness": "atRisk",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "Based on your answers, your business operations are in need of review and improvement to keep you competitive and ready for the future."
 				},
 				{
 					"readiness": "undefined",
@@ -30,11 +30,11 @@
 			"summary_text": [
 				{
 					"readiness": "ready",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "Great news - based on your answers your employees are motivated and have tools to be productive to support your business objectives"
 				},
 				{
 					"readiness": "almostReady",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "Your employees have most of the tools in place to effectively support your business, but there are ways you could get greater productivity and collaboration."
 				},
 				{
 					"readiness": "unready",
@@ -42,7 +42,7 @@
 				},
 				{
 					"readiness": "atRisk",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "You are not getting the most from your employees, you need to improve how they communicate to get the most from them."
 				},
 				{
 					"readiness": "undefined",
@@ -55,19 +55,19 @@
 			"summary_text": [
 				{
 					"readiness": "ready",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "You understand your customers needs and are able to interact with them how they want."
 				},
 				{
 					"readiness": "almostReady",
-					"text": "From your answers we believe that your company is slow to adapt to changes. Innovation is..."
+					"text": "You understand your customers needs, but could make improvements to how you interact with them to provide a higher level of service."
 				},
 				{
 					"readiness": "unready",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "You need to understand more about your customers and how they want to interact with your business to build stronger relationships."
 				},
 				{
 					"readiness": "atRisk",
-					"text": "{SECTOR_NAME}, {SECTOR_READINESS}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis."
+					"text": "Your answers suggest that you need to improve the way you interact with your customers to remain competitive."
 				},
 				{
 					"readiness": "undefined",

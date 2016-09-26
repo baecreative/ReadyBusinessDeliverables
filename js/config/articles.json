@@ -3,119 +3,68 @@
 		"articles": [
 			{
 				"id": "article_1",
-				"title": "Article 1 title",
-				"description": "Find out how Article 1 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-				"image": "img/article-img/Vodafone_Product2.jpg",
-				"url": "http://www.google.co.uk",
-				"link_text": "Read the case study",
-				"priority": 3,
-				"fallback": [ "sector_2", "sector_1", "sector_3" ],
-				"display_logic": [
-					{	
-						"questionId": 28,
-						"additional_logic": "(28.5)"
-					}
-				]
+				"title": "Business Readiness and the value of Customer Experience",
+				"description": "Because the pace of change affecting businesses is accelerating, businesses must become better prepared for thefuture. To understand the nature of preparedness, Vodafone commissioned industry analyst company Freeform Dynamics to undertake an extensive programme of research.",
+				"image": "img/article-img/vodafone-bg.png",
+				"url": "http://www.vodafone.com/business/global-enterprise/customer-experience-solutions",
+				"link_text": "Read the article",
+				"priority": 1,
+				"fallback": [ "sector_3"]
 			},
 			{
 				"id": "article_2",
-				"title": "Article 2 title",
-				"description": "Find out how Article 2 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur. Etiam quis elit erat. Integer id imperdiet dui. Sed feugiat, leo in dictum cursus, nunc dui sagittis leo, vitae rutrum magna ex vitae tortor.",
-				"image": "img/article-img/Vodafone_Product1.jpg",
-				"url": "http://ww.google.co.uk",
-				"link_text": "Read the whitepaper",
-				"fallback": [ "sector_3" ]
-			},
-			{
-				"id": "article_3",
-				"title": "Article 3 title",
-				"description": "Article 3 description... Etiam quis elit erat. Integer id imperdiet dui. Sed feugiat, leo in dictum cursus, nunc dui sagittis leo, vitae rutrum magna ex vitae tortor.",
-				"image": "img/article-img/Vodafone_Product4.jpg",
+				"title": "Smart machines enable ICE to rethink commercial cleaning",
+				"description": "The Vodafone Global Managed IoT Connectivity Platform enables ICE to install Vodafone Global SIMs in its equipment during production in its Chinese factories, and activate the SIM once the equipment goes live in any market in the world. It allows \"smart\" cleaning machines to collect data on a variety of electrical components at least once every minute when the machine is in use and even during battery charging.",
+				"image": "img/article-img/ICElogo1.jpg",
+				"url": "http://www.vodafone.com/business/m2m/case-study/smart-machines-enable-ice-to-rethink-commercial-cleaning",
+				"link_text": "Read the case study",
+				"priority": 3,
 				"fallback": [ "sector_1" ]
 			},
 			{
+				"id": "article_3",
+				"title": "The four habits of highly successful multi-nationals",
+				"description": "In a world of rapid and unpredictable change, business readiness and agility to change with the market is critical to ensure long-term survival.",
+				"image": "img/article-img/vodafone-bg.png",
+				"url": "http://www.vodafone.com/business/global-enterprise/the-four-habits-of-highly-successful-multinationals-2015-08-17",
+				"link_text": "Read the article",
+				"priority": 5,
+				"fallback": [ "sector_1", "sector_3"],
+				"display_logic": [
+					{
+						"additional_logic": "(3.4 OR 3.5)"
+					}
+				]
+			},
+			{
 				"id": "article_4",
-				"title": "Article 4 title",
-				"description": "Find out how Article 4 can improve your business. Etiam quis elit erat. Integer id imperdiet dui. Sed feugiat, leo in dictum cursus, nunc dui sagittis leo, vitae rutrum magna ex vitae tortor.",
-				"image": "img/article-img/Vodafone_Product4.jpg",
-				"url": "http://www.google.co.uk",
-				"link_text": "Read the case study"
+				"title": "How to build a game-changing flexible  working strategy",
+				"description": "Increased profits. Productive employees. There’s little doubt that flexible working pays handsome dividends to businesses that embrace it. Flexible working is about providing people with the tools to do their jobs in smarter ways, along with the technologies to be more flexible about how and where they work and the skills to react to changing customer needs.",
+				"image": "img/article-img/vodafone-bg.png",
+				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
+				"link_text": "Read our guide",
+				"priority": 2,
+				"fallback": [ "sector_2"]
 			},
 			{
 				"id": "article_5",
-				"title": "Article 5 title",
-				"description": "Find out how Article 5 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-				"image": "img/article-img/Vodafone_Product3.jpg",
-				"url": "",
-				"fallback": [ "sector_3" ],
-				"link_text": "Read the case study"
+				"title": "CIO Report: bolder IT decision making in an age of rapid change",
+				"description": "In a rapidly changing world, many CIOs are going above and beyond their traditional calling and making decisions that not only support their business, but also help drive it forward. They are encouraging new ways of working and enabling digital innovation right across their organisations.",
+				"image": "img/article-img/vodafone-bg.png",
+				"url": "http://www.vodafone.com/business/global-enterprise/cio-report-bolder-it-decision-making-in-an-age-of-rapid-change-11-19-2015",
+				"link_text": "Read the full report",
+				"priority": 4,
+				"fallback": [ "sector_1","sector_3"]
 			},
 			{
 				"id": "article_6",
-				"title": "Article 6 title",
-				"description": "Find out how Article 6 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-				"image": "img/article-img/Vodafone_Product3.jpg",
-				"url": "",
-				"priority": 5,
-				"fallback": [ "sector_2", "sector_3" ],
-				"link_text": "Read the case study",
-				"display_logic": [
-					{	
-						"questionId": 24,
-						"additional_logic": "(24.3 AND 24.4)"
-					}
-				]
-			},
-			{
-				"id": "article_7",
-				"title": "Article 7 title",
-				"description": "Find out how Article 7 can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-				"image": "img/article-img/Vodafone_Product1.jpg",
-				"url": "",
-				"priority": 7,
-				"link_text": "Read the case study",
-				"fallback": [ "sector_1" ],
-				"display_logic": [
-					{	
-						"questionId": 15
-					}
-				]
-			},
-			{
-				"id": "articl_8",				
-				"title": "Article 8 title",
-				"description": "Find out how flexible working can improve your business. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-				"image": "img/article-img/Vodafone_Product2.jpg",
-				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
-				"link_text": "Read the guide",
-				"priority": 1,
-				"fallback": [ "sector_1" ],
-				"display_logic": [
-				]
-			},
-			{
-				"id": "articl_9",
-				"title": "Article 9 title",
-				"description": "See how OneNet & Google Apps can improve your productivity. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur scelerisque facilisis. In suscipit quam vitae erat condimentum, vitae fringilla mi egestas. Fusce fermentum massa in rutrum consectetur.",
-				"image": "img/article-img/Vodafone_Product2.jpg",
-				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
-				"link_text": "Read the article",
-				"priority": 1,
-				"fallback": [ "sector_1" ],
-				"display_logic": [
-				]
-			},
-			{
-				"id": "articl_10",
-				"title": "Article 10 title",
-				"description": "Find out if you are ready to embrace digital. Own yo' condimentizzle, turpizzle sure congue consectetizzle, metus fo shut the shizzle up purus, egizzle ullamcorpizzle you son of a bizzle mi away quam.",
-				"image": "img/article-img/Vodafone_Product4.jpg",
-				"url": "http://www.vodafone.com/business/global-enterprise/flexible-friend-or-foe-a-guide-to-flexible-working-2016-02-08",
-				"link_text": "Take a look at the infographic",
-				"priority": 1,
-				"fallback": [ "sector_1" ],
-				"display_logic": [
-				]
-			}
+				"title": "RSA Group is a Ready Business",
+				"description": "For one of the world’s leading general insurers, being ready means working flexibly and collaborating globally. Find out how RSA Group used Vodafone solutions to deliver flexibile and efficient ways of working for their employees.",
+				"image": "img/article-img/vodafone-bg.png",
+				"url": "http://www.vodafone.com/business/global-enterprise/case-study/rsa-group-is-a-ready-business",
+				"link_text": "Read the full case study",
+				"priority": 6,
+				"fallback": [ "sector_2"]
+			}				
 		]
 	}

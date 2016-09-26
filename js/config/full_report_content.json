@@ -14,16 +14,16 @@
 			"inner_label_sector_static": "Your business is<br/><strong>{SECTOR_READINESS_STATIC}</strong>",
 			"not_applicable": "N/A"
 		},
-		"sector_graph_heading": "Your <strong>{SECTOR_NAME}</strong> score",
+		"sector_graph_heading": "<strong>{SECTOR_NAME}</strong> score",
 		"total_graph_heading": "Your overall <strong>readiness score</strong>",
 		"sector_content": [
 			{
 				"sectorId": "sector_1",
-				"intro": "By making the way your business operates more flexible, & resilient, more seamless & more secure you can respond quickly to changing market conditions to take advantage of new opportunities."
+				"intro": "By making the way your business operates more flexible and resilient, more seamless and  secure, you can respond quickly to changing market conditions to take advantage of new opportunities."
 			},
 			{
 				"sectorId": "sector_2",
-				"intro": "By enabling  your employees to work how, when and where they need to, whilst  retaining control over costs and security, you can be more productive, improve employee engagement and get to market faster."
+				"intro": "By enabling your employees to work how, when and where they need to, while retaining control over costs and security, you can be more productive, improve employee engagement and get to market faster."
 			},
 			{
 				"sectorId": "sector_3",

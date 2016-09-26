@@ -9,46 +9,37 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 10,
-						"unready": 45,
-						"almostReady": 31,
-						"ready": 14
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 25,
-						"unready": 35,
-						"almostReady": 25,
-						"ready": 15
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 28,
-						"unready": 22,
-						"almostReady": 40,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 39,
-						"unready": 18,
-						"almostReady": 32,
-						"ready": 11
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -59,46 +50,201 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 3,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 3,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
-					"size_id": "5",
+					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 6,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -109,46 +255,37 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -159,46 +296,37 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -209,96 +337,78 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
 		},
 		{
-			"id": 10,
+			"id": 22,
 			"business_size": [
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -309,96 +419,78 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
 		},
 		{
-			"id": 12,
+			"id": 23,
 			"business_size": [
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -409,46 +501,37 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
@@ -459,49 +542,368 @@
 				{
 					"size_id": "1",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
 					}
 				},
 				{
 					"size_id": "2",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "3",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				},
 				{
 					"size_id": "4",
 					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
-					}
-				},
-				{
-					"size_id": "5",
-					"distribution": {
-						"atRisk": 20,
-						"unready": 40,
-						"almostReady": 30,
-						"ready": 10
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
 					}
 				}
 			]
-		}
+		},
+		{
+			"id": 15,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 16,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 24,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 18,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 19,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 20,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 21,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		},
+		{
+			"id": 25,
+			"business_size": [
+				{
+					"size_id": "1",
+					"distribution": {
+						"atRisk": 26,
+						"unready": 25,
+						"almostReady": 25,
+						"ready": 24
+					}
+				},
+				{
+					"size_id": "2",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "3",
+					"distribution": {
+						"atRisk":16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				},
+				{
+					"size_id": "4",
+					"distribution": {
+						"atRisk": 16,
+						"unready": 26,
+						"almostReady": 27,
+						"ready": 31
+					}
+				}
+			]
+		}																						
 	]
 }
