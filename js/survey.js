@@ -1,6 +1,6 @@
 /** RBI: survey.js v2.1 */
 
-window.survey = (function (rbApp, Velocity, TamingSelect) {
+window.survey = (function ($, rbApp, Velocity, TamingSelect) {
   	var pageData = {},
   		// AVERAGE_SURVEY_LENGTH
   		averageSurveyLength = 12,
@@ -15,9 +15,9 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
   		pub = {
 		    init:  function () {
 		    	var that = this;
-		    	$(document).ready(function() {
-	    			that.equaliseAnswerBoxes();
-	    		});
+				$(window).load(function() {
+					that.equaliseAnswerBoxes();
+				});
 
 		    	this.reportBody = $('.sg-body');
 		    	this.surveyFooter = this.reportBody.find('.sg-footer');
@@ -263,7 +263,7 @@ window.survey = (function (rbApp, Velocity, TamingSelect) {
   	};
 
   	return pub;
-})(window.rbApp, window.Velocity, window.tamingselect);
+})(jQuery, window.rbApp, window.Velocity, window.tamingselect);
 
 $(document).on('blur', 'input, textarea', function() {
 	setTimeout(function() {
