@@ -295,6 +295,9 @@ ReportPage.prototype = {
 					});
 
 				} else {
+					if (that.APIcallCount > 5) {
+						console.error('Failed to push data to SurveyGizmo API. Will retry in 15 seconds. If this error continues, check your API settings.')
+					}
 					window.setTimeout(function() {
 		  				that.getAPIResponseData();
 					}, 15000);
