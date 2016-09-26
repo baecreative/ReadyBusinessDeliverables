@@ -1,3 +1,5 @@
+/** RBI: report.js v2.1 */
+
 'use strict';
 
 function ReportPage(rbApp, Velocity) {
@@ -982,7 +984,11 @@ ReportPage.prototype = {
 			bodyText = encodeURIComponent(this.config.email.body),
 			hrefString = "mailto:%20?subject=" + title + "&body=" + bodyText + urlEncoded,
 			introShare = $('section.share-report'),
-			$copyLinks = introShare.find('.link').add(this.stickyNav.$shareDropDown.find('.link'));
+			$copyLinks = introShare.find('.link');
+
+		if (this.stickyNav.$shareDropDown) {
+			$copyLinks.add(this.stickyNav.$shareDropDown.find('.link'));
+		}
 
 	 	// set the email href
 		introShare.find('.email').attr('href',hrefString);
@@ -2027,5 +2033,3 @@ if (!Object.keys) {
         return keys;
     };
 }
-
-
